@@ -22,6 +22,16 @@ export const createPayloadFromAnswers = (): Payload => {
     return undefined;
   };
   
+  // Map languages array to single language for Payload
+  const mapLanguage = (languages?: string[]): "cestina" | "english" | "deutsch" | "slovak" => {
+    if (!languages || languages.length === 0) return "cestina";
+    const lang = languages[0].toLowerCase();
+    if (lang.includes('english') || lang.includes('angličtina') || lang === 'en') return "english";
+    if (lang.includes('deutsch') || lang.includes('němčina') || lang === 'de') return "deutsch";
+    if (lang.includes('slovak') || lang.includes('slovenština') || lang === 'sk') return "slovak";
+    return "cestina"; // default to Czech
+  };
+  
   return {
     city: answers.city,
     coords: answers.coords ?? null,
@@ -33,7 +43,7 @@ export const createPayloadFromAnswers = (): Payload => {
     genderPref: mapGenderPref(answers.therapistGender),
     meetingType: mapMeetingType(answers.meetingType),
     radiusKm: answers.radiusKm ?? 30,
-    language: answers.language ?? "cestina",
+    language: mapLanguage(answers.languages),
   };
 };
 
