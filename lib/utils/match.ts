@@ -93,7 +93,9 @@ export function matchTherapists(
 
   const results: MatchResult[] = base.map(therapist => {
     const matchScore = calculateMatchScore(therapist, issues, diagnosisTags)
-    const distanceKm = userCoords ? haversineKm(userCoords, therapist.location) : 0
+    const distanceKm = userCoords
+      ? haversineKm(userCoords, { lat: therapist.latitude, lon: therapist.longitude })
+      : 0
     const distanceScore = calculateDistanceScore(therapist, userCoords)
     
     // Composite score: 70% match score + 30% distance score
