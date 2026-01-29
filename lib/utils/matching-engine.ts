@@ -182,7 +182,7 @@ export function passesFullFilters(therapist: Therapist, criteria: MatchingCriter
     };
     
     const needs = criteria.timePreferences.map(k => timeKeyToLabel[k] || k);
-    const hasMatchingTime = therapist.availability?.some(av => needs.includes(av));
+    const hasMatchingTime = (therapist as any).availability?.some((av: string) => needs.includes(av));
     if (!hasMatchingTime) return false;
   }
 
