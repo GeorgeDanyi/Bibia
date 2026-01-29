@@ -118,8 +118,9 @@ export function passesStrictFilters(therapist: Therapist, criteria: MatchingCrit
 
   // Languages - therapist must have ANY of the selected languages
   if (criteria.languages && criteria.languages.length > 0) {
+    if (!therapist.languages || therapist.languages.length === 0) return false;
     const hasMatchingLanguage = criteria.languages.some(lang => 
-      therapist.languages.includes(lang)
+      therapist.languages!.includes(lang)
     );
     if (!hasMatchingLanguage) return false;
   }
@@ -221,7 +222,7 @@ export function computeCompositeScore(therapist: Therapist, criteria: MatchingCr
     }
   }
   const expOverlap = criteria.experiences ? overlapCount(therapist.specializations, criteria.experiences) : 0;
-  const langOverlap = criteria.languages ? overlapCount(therapist.languages, criteria.languages) : 0;
+  const langOverlap = criteria.languages && therapist.languages ? overlapCount(therapist.languages, criteria.languages) : 0;
   
   // Problem area matching - check therapist specializations against selected problem areas
   const problemAreaOverlap = criteria.problemAreas ? overlapCount(therapist.specializations || [], criteria.problemAreas) : 0;
@@ -358,7 +359,8 @@ export const RELAXATION_LEVELS: RelaxationLevel[] = [
         if (t.gender && t.gender !== c.gender) return false;
       }
       if (c.languages && c.languages.length > 0) {
-        const hasMatchingLanguage = c.languages.some(lang => t.languages.includes(lang));
+        if (!t.languages || t.languages.length === 0) return false;
+        const hasMatchingLanguage = c.languages.some(lang => t.languages!.includes(lang));
         if (!hasMatchingLanguage) return false;
       }
       // Keep distance
