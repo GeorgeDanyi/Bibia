@@ -174,7 +174,9 @@ class SearchTracer {
         changes: []
       },
       orchestrator: {},
-      api: {},
+      api: {
+        endpoint: ''
+      },
       data: {},
       results: {},
       performance: {},
