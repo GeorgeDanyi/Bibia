@@ -145,7 +145,7 @@ export function passesFullFilters(therapist: Therapist, criteria: MatchingCriter
     const clinics: { lat: number; lon: number }[] = (therapist as any).locations || (therapist as any).clinics || []
     let distance = 0
     if (clinics.length > 0) {
-      distance = nearestClinicDistance({ lat: criteria.coordinates.lat, lon: criteria.coordinates.lon }, clinics as any) || Infinity
+      distance = nearestClinicDistance({ lat: criteria.coordinates.lat, lon: criteria.coordinates.lng }, clinics as any) || Infinity
     } else {
       distance = calculateDistance(criteria.coordinates, therapist.location)
     }
