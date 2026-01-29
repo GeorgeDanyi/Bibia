@@ -2,11 +2,11 @@
 
 import { 
   CanonicalCondition, 
-  CanonicalDetail, 
-  CanonicalConditionCode, 
-  CanonicalDetailCode 
+  CanonicalDetail
 } from '../types/questionnaire';
 import { 
+  CanonicalConditionCode,
+  CanonicalDetailCode,
   isValidCanonicalConditionCode,
   isValidCanonicalDetailCode,
   getCanonicalConditionCode,
