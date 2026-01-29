@@ -5,6 +5,15 @@ import type { Payload, RequiredPayload, PayloadValidation } from '../types/paylo
 export const createPayloadFromAnswers = (): Payload => {
   const answers = getAnswers();
   
+  // Map Czech gender values to English
+  const mapGenderPref = (gender?: string): "male" | "female" | "any" => {
+    if (!gender) return "any";
+    const g = gender.toLowerCase();
+    if (g === 'zena' || g === 'žena' || g === 'female') return "female";
+    if (g === 'muz' || g === 'muž' || g === 'male') return "male";
+    return "any";
+  };
+  
   return {
     city: answers.city,
     coords: answers.coords ?? null,
@@ -13,7 +22,7 @@ export const createPayloadFromAnswers = (): Payload => {
       day: answers.day ?? "", 
       timeSlot: answers.timeSlot ?? "" 
     },
-    genderPref: answers.therapistGender ?? "any",
+    genderPref: mapGenderPref(answers.therapistGender),
     meetingType: answers.meetingType ?? "clinic",
     radiusKm: answers.radiusKm ?? 30,
     language: answers.language ?? "cestina",
