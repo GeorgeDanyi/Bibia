@@ -1,5 +1,7 @@
 // Mock therapist data for Bibia questionnaire (relaxed typing – used only in tests/debug)
-export const MOCK_THERAPISTS = [
+import { Therapist } from '../types/questionnaire';
+
+export const MOCK_THERAPISTS: Therapist[] = [
   {
     id: 't001',
     name: 'MUDr. Anna Nováková',

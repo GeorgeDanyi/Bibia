@@ -435,8 +435,8 @@ export function matchTherapists(answers: QuestionnaireAnswers): {
     const candidates: TherapistMatch[] = [];
     
     for (const therapist of MOCK_THERAPISTS) {
-      if (level.filters(therapist, criteria)) {
-        const { score, breakdown } = computeCompositeScore(therapist, criteria);
+      if (level.filters(therapist as Therapist, criteria)) {
+        const { score, breakdown } = computeCompositeScore(therapist as Therapist, criteria);
         
         const nextAvailableSlot = therapist.nextSlots && therapist.nextSlots.length > 0 
           ? therapist.nextSlots[0].startISO 
