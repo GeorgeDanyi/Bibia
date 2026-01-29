@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#ecfdf5" />
+    </linearGradient>
+    <linearGradient id="personGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Person silhouette (placeholder for actual photo) -->
+  <g transform="translate(400, 100)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="40" fill="url(#personGradient)" opacity="0.8" />
+    
+    <!-- Body -->
+    <ellipse cx="0" cy="80" rx="60" ry="100" fill="url(#personGradient)" opacity="0.7" />
+    
+    <!-- Arms -->
+    <ellipse cx="-70" cy="60" rx="20" ry="80" fill="url(#personGradient)" opacity="0.6" transform="rotate(-20 -70 60)" />
+    <ellipse cx="70" cy="60" rx="20" ry="80" fill="url(#personGradient)" opacity="0.6" transform="rotate(20 70 60)" />
+    
+    <!-- Legs -->
+    <ellipse cx="-25" cy="180" rx="25" ry="80" fill="url(#personGradient)" opacity="0.6" />
+    <ellipse cx="25" cy="180" rx="25" ry="80" fill="url(#personGradient)" opacity="0.6" />
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="650" cy="150" r="30" fill="#10b981" opacity="0.1" />
+  <circle cx="700" cy="300" r="20" fill="#059669" opacity="0.15" />
+  <circle cx="600" cy="400" r="25" fill="#10b981" opacity="0.1" />
+  
+  <!-- Text placeholder -->
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#064e3b" opacity="0.3">
+    Hero Photo Placeholder
+  </text>
+  <text x="50" y="130" font-family="Arial, sans-serif" font-size="14" fill="#064e3b" opacity="0.2">
+    Replace with actual physiotherapist photo
+  </text>
+</svg>

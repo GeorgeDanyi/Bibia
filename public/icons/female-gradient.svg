@@ -1,0 +1,14 @@
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="femaleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="12" cy="8" r="6" fill="url(#femaleGradient)"/>
+  <path d="M12 14v8" stroke="url(#femaleGradient)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M8 20h8" stroke="url(#femaleGradient)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M10 2l4 4" stroke="url(#femaleGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 2v4" stroke="url(#femaleGradient)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M12 4h4" stroke="url(#femaleGradient)" stroke-width="2" stroke-linecap="round"/>
+</svg>

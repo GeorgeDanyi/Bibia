@@ -1,0 +1,269 @@
+[
+  {
+    "id": "prague_001",
+    "name": "MUDr. Anna Nováková",
+    "city": "Praha",
+    "latitude": 50.0755,
+    "longitude": 14.4378,
+    "practiceType": "clinic",
+    "diagnosisTags": [
+      "backneck",
+      "sports"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 3,
+    "pricePerHour": 1200,
+    "isFixture": true
+  },
+  {
+    "id": "prague_002",
+    "name": "Mgr. Petr Svoboda",
+    "city": "Praha",
+    "latitude": 50.0855,
+    "longitude": 14.4278,
+    "practiceType": "home",
+    "diagnosisTags": [
+      "bechterev",
+      "backneck"
+    ],
+    "languages": [
+      "cs",
+      "de"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 1,
+    "pricePerHour": 1000,
+    "isFixture": true
+  },
+  {
+    "id": "prague_003",
+    "name": "Bc. Marie Kratochvílová",
+    "city": "Praha",
+    "latitude": 50.0655,
+    "longitude": 14.4478,
+    "practiceType": "online",
+    "diagnosisTags": [
+      "sports",
+      "backneck"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "ru"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 0,
+    "pricePerHour": 800,
+    "isFixture": true
+  },
+  {
+    "id": "prague_004",
+    "name": "MUDr. Jan Horák",
+    "city": "Praha",
+    "latitude": 50.0755,
+    "longitude": 14.4178,
+    "practiceType": "clinic",
+    "diagnosisTags": [
+      "bechterev"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "acceptingNew": false,
+    "nextAvailableDays": 14,
+    "pricePerHour": 1500,
+    "isFixture": true
+  },
+  {
+    "id": "prague_005",
+    "name": "Mgr. Eva Veselá",
+    "city": "Praha",
+    "latitude": 50.0855,
+    "longitude": 14.4578,
+    "practiceType": "online",
+    "diagnosisTags": [
+      "backneck",
+      "sports"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 2,
+    "pricePerHour": 900,
+    "isFixture": true
+  },
+  {
+    "id": "brno_001",
+    "name": "MUDr. Tomáš Krejčí",
+    "city": "Brno",
+    "latitude": 49.1951,
+    "longitude": 16.6068,
+    "practiceType": "clinic",
+    "diagnosisTags": [
+      "sports",
+      "backneck"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 2,
+    "pricePerHour": 1100,
+    "isFixture": true
+  },
+  {
+    "id": "brno_002",
+    "name": "Mgr. Jana Novotná",
+    "city": "Brno",
+    "latitude": 49.1851,
+    "longitude": 16.6168,
+    "practiceType": "home",
+    "diagnosisTags": [
+      "bechterev",
+      "backneck"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 5,
+    "pricePerHour": 950,
+    "isFixture": true
+  },
+  {
+    "id": "brno_003",
+    "name": "Bc. Pavel Havlíček",
+    "city": "Brno",
+    "latitude": 49.2051,
+    "longitude": 16.5968,
+    "practiceType": "online",
+    "diagnosisTags": [
+      "sports"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "sk"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 1,
+    "pricePerHour": 800,
+    "isFixture": true
+  },
+  {
+    "id": "brno_004",
+    "name": "MUDr. Petra Urbanová",
+    "city": "Brno",
+    "latitude": 49.1951,
+    "longitude": 16.5968,
+    "practiceType": "clinic",
+    "diagnosisTags": [
+      "bechterev",
+      "sports"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "acceptingNew": false,
+    "nextAvailableDays": 21,
+    "pricePerHour": 1200,
+    "isFixture": true
+  },
+  {
+    "id": "ostrava_001",
+    "name": "MUDr. Martin Kovář",
+    "city": "Ostrava",
+    "latitude": 49.83,
+    "longitude": 18.285,
+    "practiceType": "clinic",
+    "diagnosisTags": [
+      "sports",
+      "backneck"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "pl"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 2,
+    "pricePerHour": 1000,
+    "isFixture": true
+  },
+  {
+    "id": "ostrava_002",
+    "name": "Mgr. Lenka Petříková",
+    "city": "Ostrava",
+    "latitude": 49.84,
+    "longitude": 18.275,
+    "practiceType": "home",
+    "diagnosisTags": [
+      "bechterev",
+      "backneck"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "ru"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 4,
+    "pricePerHour": 850,
+    "isFixture": true
+  },
+  {
+    "id": "ostrava_003",
+    "name": "Bc. Jakub Hrdina",
+    "city": "Ostrava",
+    "latitude": 49.82,
+    "longitude": 18.295,
+    "practiceType": "online",
+    "diagnosisTags": [
+      "sports",
+      "bechterev"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "sk"
+    ],
+    "acceptingNew": true,
+    "nextAvailableDays": 0,
+    "pricePerHour": 750,
+    "isFixture": true
+  },
+  {
+    "id": "ostrava_004",
+    "name": "MUDr. Zuzana Balcarová",
+    "city": "Ostrava",
+    "latitude": 49.83,
+    "longitude": 18.275,
+    "practiceType": "clinic",
+    "diagnosisTags": [
+      "backneck",
+      "sports"
+    ],
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "acceptingNew": false,
+    "nextAvailableDays": 18,
+    "pricePerHour": 1100,
+    "isFixture": true
+  }
+]

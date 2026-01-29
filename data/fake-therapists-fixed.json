@@ -1,0 +1,7266 @@
+[
+  {
+    "id": "t001",
+    "fullName": "Zuzana Beneš",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.068510943055735,
+    "longitude": 14.47765156180086,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 26,
+    "pricePerSession": 552,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk",
+      "pl",
+      "fr",
+      "es"
+    ],
+    "specialties": [
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Roztroušená skleróza",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Cyriax",
+      "DNS",
+      "Dry Needling"
+    ],
+    "worksWith": [
+      "senioři",
+      "děti",
+      "rekreanti"
+    ],
+    "tags": [
+      "Praha",
+      "Cyriax",
+      "DNS",
+      "Bolesti zad / krku",
+      "senioři",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Roztroušená skleróza",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4.7,
+      "count": 166
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Ordinace Praha",
+    "address": "Náměstí 106, Praha",
+    "phone": "+420 314 929 243",
+    "email": "zuzana.beneš@centrum.cz",
+    "insuranceAccepted": [
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "642 10",
+    "homeVisitRadiusKm": 25,
+    "isFixture": true
+  },
+  {
+    "id": "t002",
+    "fullName": "Lucie Horák",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.07688715879465,
+    "longitude": 14.443074933426228,
+    "practiceType": "hospital",
+    "acceptingNew": false,
+    "yearsExperience": 25,
+    "pricePerSession": 532,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk",
+      "pl",
+      "fr",
+      "es"
+    ],
+    "specialties": [
+      "Sportovní úraz"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky",
+      "Skolióza",
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "PNF"
+    ],
+    "worksWith": [
+      "dopravní nehody"
+    ],
+    "tags": [
+      "Praha",
+      "PNF",
+      "Sportovní úraz",
+      "dopravní nehody"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky",
+      "Skolióza",
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 206
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Náměstí 31, Praha",
+    "phone": "+420 617 957 391",
+    "email": "lucie.horák@rehab.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "RBP",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "539 96",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t003",
+    "fullName": "Věra Doležal",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.07182054565447,
+    "longitude": 14.430159113035652,
+    "practiceType": "private",
+    "acceptingNew": false,
+    "yearsExperience": 5,
+    "pricePerSession": 774,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk",
+      "pl",
+      "fr"
+    ],
+    "specialties": [
+      "Bolesti zad / krku",
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Bobath",
+      "PNF",
+      "Manuální terapie",
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "sportovci",
+      "senioři",
+      "těhotné"
+    ],
+    "tags": [
+      "Praha",
+      "Bobath",
+      "PNF",
+      "Bolesti zad / krku",
+      "sportovci",
+      "senioři"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.4,
+      "count": 181
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Praha",
+    "address": "Ulice 61, Praha",
+    "phone": "+420 190 436 745",
+    "email": "věra.doležal@fyzio.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "VZP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "888 16",
+    "homeVisitRadiusKm": 8,
+    "isFixture": true
+  },
+  {
+    "id": "t004",
+    "fullName": "Ondřej Hájek",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.081749172611275,
+    "longitude": 14.432040121392665,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 6,
+    "pricePerSession": 747,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk",
+      "pl"
+    ],
+    "specialties": [
+      "Jiné potíže"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Skolióza"
+    ],
+    "modalities": [
+      "Cyriax",
+      "DNS",
+      "McKenzie",
+      "Vojta"
+    ],
+    "worksWith": [
+      "děti"
+    ],
+    "tags": [
+      "Praha",
+      "Cyriax",
+      "DNS",
+      "Jiné potíže",
+      "děti",
+      "Vojta"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.8,
+      "count": 127
+    },
+    "nextAvailableDays": 12,
+    "workingHours": {
+      "morning": false,
+      "midday": false,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Národní 47, Praha",
+    "phone": "+420 154 269 301",
+    "email": "ondřej.hájek@centrum.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "ZPŠ",
+      "CPZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "567 41",
+    "homeVisitRadiusKm": 17,
+    "isFixture": true
+  },
+  {
+    "id": "t005",
+    "fullName": "Irena Růžička",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.10447228714821,
+    "longitude": 14.475660543646482,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 24,
+    "pricePerSession": 793,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk",
+      "pl"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "PNF",
+      "Visceral",
+      "Mulligan",
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "senioři",
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Praha",
+      "PNF",
+      "Visceral",
+      "Rehabilitace po operaci",
+      "senioři",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 4.9,
+      "count": 184
+    },
+    "nextAvailableDays": 1,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Ulice 25, Praha",
+    "phone": "+420 919 776 458",
+    "email": "irena.růžička@rehab.cz",
+    "insuranceAccepted": [
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "858 73",
+    "homeVisitRadiusKm": 25,
+    "isFixture": true
+  },
+  {
+    "id": "t006",
+    "fullName": "Lucie Novák",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.103051524233635,
+    "longitude": 14.432552010138743,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 17,
+    "pricePerSession": 663,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza"
+    ],
+    "modalities": [
+      "Bobath",
+      "Cyriax",
+      "Mobilizace",
+      "Kaltenborn"
+    ],
+    "worksWith": [
+      "pracovní úrazy",
+      "rekreanti",
+      "senioři"
+    ],
+    "tags": [
+      "Praha",
+      "Bobath",
+      "Cyriax",
+      "Dlouhodobé onemocnění / diagnóza",
+      "pracovní úrazy",
+      "rekreanti",
+      "Senioři"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 107
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": false,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Praha",
+    "address": "Třída 111, Praha",
+    "phone": "+420 288 851 742",
+    "email": "lucie.novák@rehab.cz",
+    "insuranceAccepted": [
+      "ZPMV",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "700 61",
+    "homeVisitRadiusKm": 11,
+    "isFixture": true
+  },
+  {
+    "id": "t007",
+    "fullName": "Jiří Němec",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.05484133523289,
+    "longitude": 14.403533243226509,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 18,
+    "pricePerSession": 565,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Bolesti kloubů",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "Mobilizace",
+      "PNF",
+      "Bobath"
+    ],
+    "worksWith": [
+      "dopravní nehody"
+    ],
+    "tags": [
+      "Praha",
+      "Mobilizace",
+      "PNF",
+      "Bolesti kloubů",
+      "dopravní nehody"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 96
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Náměstí 143, Praha",
+    "phone": "+420 161 895 389",
+    "email": "jiří.němec@rehab.cz",
+    "insuranceAccepted": [
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "612 24",
+    "homeVisitRadiusKm": 28,
+    "isFixture": true
+  },
+  {
+    "id": "t008",
+    "fullName": "Monika Černý",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.11664945212698,
+    "longitude": 14.425906819378248,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 12,
+    "pricePerSession": 771,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "uk",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Jiné potíže"
+    ],
+    "diagnoses": [
+      "Skolióza",
+      "Výhřez ploténky",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "DNS",
+      "Mobilizace",
+      "Cyriax",
+      "Dry Needling"
+    ],
+    "worksWith": [
+      "dopravní nehody",
+      "profesionální sportovci",
+      "děti"
+    ],
+    "tags": [
+      "Praha",
+      "DNS",
+      "Mobilizace",
+      "Jiné potíže",
+      "dopravní nehody",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [
+      "Skolióza",
+      "Výhřez ploténky",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 208
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Náměstí 148, Praha",
+    "phone": "+420 664 947 242",
+    "email": "monika.černý@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "986 18",
+    "homeVisitRadiusKm": 12,
+    "isFixture": true
+  },
+  {
+    "id": "t009",
+    "fullName": "Petra Pokorný",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.083892986700036,
+    "longitude": 14.44482710765162,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 3,
+    "pricePerSession": 717,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "uk",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Sportovní úraz"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Mulligan"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Mulligan",
+      "Sportovní úraz",
+      "profesionální sportovci",
+      "sportovci",
+      "Online"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 57
+    },
+    "nextAvailableDays": 6,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Ulice 133, Praha",
+    "phone": "+420 191 330 311",
+    "email": "petra.pokorný@centrum.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "ZP MV ČR",
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "234 72",
+    "homeVisitRadiusKm": 23,
+    "isFixture": true
+  },
+  {
+    "id": "t010",
+    "fullName": "Jan Černý",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.110572886035214,
+    "longitude": 14.425962845464058,
+    "practiceType": "clinic",
+    "acceptingNew": false,
+    "yearsExperience": 23,
+    "pricePerSession": 718,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "uk",
+      "ru",
+      "sk",
+      "de"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "Bobath",
+      "Manuální terapie",
+      "DNS"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti"
+    ],
+    "tags": [
+      "Praha",
+      "Bobath",
+      "Manuální terapie",
+      "Bolesti hlavy / migrény",
+      "sportovci",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 118
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Národní 84, Praha",
+    "phone": "+420 955 915 167",
+    "email": "jan.černý@rehab.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "VOZP",
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "826 39",
+    "homeVisitRadiusKm": 19,
+    "isFixture": true
+  },
+  {
+    "id": "t011",
+    "fullName": "Anna Veselý",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.04590367642701,
+    "longitude": 14.404644621402019,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 27,
+    "pricePerSession": 612,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "DNS",
+      "Bobath"
+    ],
+    "worksWith": [
+      "děti",
+      "dospívající"
+    ],
+    "tags": [
+      "Praha",
+      "DNS",
+      "Bobath",
+      "Bolesti hlavy / migrény",
+      "děti",
+      "dospívající"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 4.7,
+      "count": 102
+    },
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Náměstí 182, Praha",
+    "phone": "+420 357 393 993",
+    "email": "anna.veselý@centrum.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV",
+      "ZPŠ",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "123 24",
+    "homeVisitRadiusKm": 19,
+    "isFixture": true
+  },
+  {
+    "id": "t012",
+    "fullName": "Lucie Svoboda",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.073343561121064,
+    "longitude": 14.413408803744352,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 15,
+    "pricePerSession": 612,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru",
+      "sk",
+      "de"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Visceral",
+      "Dry Needling",
+      "Mulligan"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti"
+    ],
+    "tags": [
+      "Praha",
+      "Visceral",
+      "Dry Needling",
+      "Těhotenství / po porodu",
+      "sportovci",
+      "děti",
+      "Online"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 166
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Náměstí 176, Praha",
+    "phone": "+420 201 690 126",
+    "email": "lucie.svoboda@centrum.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV",
+      "ZPŠ",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "145 86",
+    "homeVisitRadiusKm": 33,
+    "isFixture": true
+  },
+  {
+    "id": "t013",
+    "fullName": "Petr Pokorný",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.035558397272986,
+    "longitude": 14.416021867535708,
+    "practiceType": "home_visits",
+    "acceptingNew": false,
+    "yearsExperience": 24,
+    "pricePerSession": 765,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci",
+      "Sportovní úraz"
+    ],
+    "diagnoses": [
+      "Po operaci menisku",
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "Vojta",
+      "DNS"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "pracovní úrazy",
+      "sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Vojta",
+      "DNS",
+      "Rehabilitace po operaci",
+      "profesionální sportovci",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Po operaci menisku",
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 3.9,
+      "count": 146
+    },
+    "nextAvailableDays": 1,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Třída 48, Praha",
+    "phone": "+420 227 904 815",
+    "email": "petr.pokorný@rehab.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "CPZP",
+      "VOZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "202 58",
+    "homeVisitRadiusKm": 24,
+    "isFixture": true
+  },
+  {
+    "id": "t014",
+    "fullName": "Anna Novotný",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.04555958717322,
+    "longitude": 14.431629147482768,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 7,
+    "pricePerSession": 553,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru",
+      "uk"
+    ],
+    "specialties": [
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "modalities": [
+      "Bobath",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "těhotné"
+    ],
+    "tags": [
+      "Praha",
+      "Bobath",
+      "Manipulace",
+      "Bolesti kloubů",
+      "rekreanti",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 202
+    },
+    "nextAvailableDays": 12,
+    "workingHours": {
+      "morning": true,
+      "midday": false,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Praha",
+    "address": "Třída 130, Praha",
+    "phone": "+420 613 770 878",
+    "email": "anna.novotný@rehab.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "VZP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "675 60",
+    "homeVisitRadiusKm": 34,
+    "isFixture": true
+  },
+  {
+    "id": "t015",
+    "fullName": "Jaroslav Beneš",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.08284152819358,
+    "longitude": 14.43423991162405,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 6,
+    "pricePerSession": 557,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru",
+      "sk",
+      "de"
+    ],
+    "specialties": [
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Manipulace",
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Manipulace",
+      "DNS",
+      "Bolesti kloubů",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.2,
+      "count": 84
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Praha",
+    "address": "Národní 99, Praha",
+    "phone": "+420 551 180 861",
+    "email": "jaroslav.beneš@rehab.cz",
+    "insuranceAccepted": [
+      "ZPMV",
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "992 97",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t016",
+    "fullName": "Jana Novotný",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.125357972860314,
+    "longitude": 14.47555106963714,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 13,
+    "pricePerSession": 708,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [
+      "Po operaci menisku",
+      "Po úrazu kotníku",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Mulligan",
+      "DNS"
+    ],
+    "worksWith": [
+      "profesionální sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Mulligan",
+      "DNS",
+      "Rehabilitace po úrazu",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [
+      "Po operaci menisku",
+      "Po úrazu kotníku",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 4.7,
+      "count": 79
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Náměstí 160, Praha",
+    "phone": "+420 499 582 230",
+    "email": "jana.novotný@rehab.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "VOZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "269 74",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t017",
+    "fullName": "Jaroslav Novotný",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.07342907255711,
+    "longitude": 14.450571987623302,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 24,
+    "pricePerSession": 798,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Dry Needling",
+      "PNF"
+    ],
+    "worksWith": [
+      "těhotné",
+      "sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Dry Needling",
+      "PNF",
+      "Rehabilitace po operaci",
+      "těhotné",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 117
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Třída 7, Praha",
+    "phone": "+420 388 166 188",
+    "email": "jaroslav.novotný@fyzio.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "108 85",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t018",
+    "fullName": "Jiří Růžička",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.12250995551958,
+    "longitude": 14.427047824260574,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 4,
+    "pricePerSession": 602,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu",
+      "Sportovní úraz"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza"
+    ],
+    "modalities": [
+      "Bobath",
+      "Dry Needling",
+      "DNS",
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "senioři",
+      "rekreanti"
+    ],
+    "tags": [
+      "Praha",
+      "Bobath",
+      "Dry Needling",
+      "Těhotenství / po porodu",
+      "senioři",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 39
+    },
+    "nextAvailableDays": 1,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Ulice 83, Praha",
+    "phone": "+420 124 339 270",
+    "email": "jiří.růžička@rehab.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "ZP MV ČR",
+      "ZPMV",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "584 79",
+    "homeVisitRadiusKm": 25,
+    "isFixture": true
+  },
+  {
+    "id": "t019",
+    "fullName": "Michal Fiala",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.03142079607072,
+    "longitude": 14.441367318056464,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 14,
+    "pricePerSession": 776,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Mulligan",
+      "Dry Needling",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "dopravní nehody",
+      "profesionální sportovci",
+      "těhotné"
+    ],
+    "tags": [
+      "Praha",
+      "Mulligan",
+      "Dry Needling",
+      "Rehabilitace po úrazu",
+      "dopravní nehody",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 33
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Náměstí 76, Praha",
+    "phone": "+420 146 654 455",
+    "email": "michal.fiala@fyzio.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "VOZP",
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "591 92",
+    "homeVisitRadiusKm": 24,
+    "isFixture": true
+  },
+  {
+    "id": "t020",
+    "fullName": "Jana Horák",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.05298661098912,
+    "longitude": 14.48148145282931,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 12,
+    "pricePerSession": 685,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu",
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Mulligan",
+      "Vojta",
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Praha",
+      "Mulligan",
+      "Vojta",
+      "Těhotenství / po porodu",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 3.9,
+      "count": 71
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Náměstí 118, Praha",
+    "phone": "+420 434 870 963",
+    "email": "jana.horák@rehab.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "OZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "114 24",
+    "homeVisitRadiusKm": 33,
+    "isFixture": true
+  },
+  {
+    "id": "t021",
+    "fullName": "Věra Zeman",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.03007013338078,
+    "longitude": 14.396896132314344,
+    "practiceType": "home_visits",
+    "acceptingNew": false,
+    "yearsExperience": 23,
+    "pricePerSession": 546,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "PNF",
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "děti",
+      "rekreanti",
+      "dopravní nehody"
+    ],
+    "tags": [
+      "Praha",
+      "PNF",
+      "DNS",
+      "Rehabilitace po operaci",
+      "děti",
+      "rekreanti"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.2,
+      "count": 94
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Národní 100, Praha",
+    "phone": "+420 339 922 417",
+    "email": "věra.zeman@fyzio.cz",
+    "insuranceAccepted": [
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "734 72",
+    "homeVisitRadiusKm": 34,
+    "isFixture": true
+  },
+  {
+    "id": "t022",
+    "fullName": "Adam Horák",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.095829869428805,
+    "longitude": 14.390227969597916,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 20,
+    "pricePerSession": 609,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach",
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [
+      "Skolióza"
+    ],
+    "modalities": [
+      "Kinesio Taping",
+      "Manipulace",
+      "Dry Needling"
+    ],
+    "worksWith": [
+      "těhotné",
+      "děti",
+      "profesionální sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Kinesio Taping",
+      "Manipulace",
+      "Bolesti svalů / šlach",
+      "těhotné",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4,
+      "count": 51
+    },
+    "nextAvailableDays": 10,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Národní 41, Praha",
+    "phone": "+420 794 328 224",
+    "email": "adam.horák@fyzio.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPŠ",
+      "ZPMV",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "320 84",
+    "homeVisitRadiusKm": 27,
+    "isFixture": true
+  },
+  {
+    "id": "t023",
+    "fullName": "Irena Kratochvíl",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.10816355277106,
+    "longitude": 14.403282279464515,
+    "practiceType": "private",
+    "acceptingNew": false,
+    "yearsExperience": 21,
+    "pricePerSession": 522,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru",
+      "uk"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Mulligan",
+      "Mobilizace",
+      "Cyriax",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "sportovci",
+      "senioři",
+      "rekreanti"
+    ],
+    "tags": [
+      "Praha",
+      "Mulligan",
+      "Mobilizace",
+      "Těhotenství / po porodu",
+      "sportovci",
+      "senioři"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 149
+    },
+    "nextAvailableDays": 6,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Třída 134, Praha",
+    "phone": "+420 440 510 319",
+    "email": "irena.kratochvíl@centrum.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "ZPMV",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "628 95",
+    "homeVisitRadiusKm": 29,
+    "isFixture": true
+  },
+  {
+    "id": "t024",
+    "fullName": "Hana Sedláček",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.054673670356365,
+    "longitude": 14.463215698455485,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 17,
+    "pricePerSession": 728,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "sk"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach",
+      "Jiné potíže"
+    ],
+    "diagnoses": [
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Mobilizace",
+      "DNS"
+    ],
+    "worksWith": [
+      "děti",
+      "těhotné"
+    ],
+    "tags": [
+      "Praha",
+      "Mobilizace",
+      "DNS",
+      "Bolesti svalů / šlach",
+      "děti",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 107
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Třída 135, Praha",
+    "phone": "+420 791 393 976",
+    "email": "hana.sedláček@fyzio.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "RBP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "589 60",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t025",
+    "fullName": "Anna Dvořák",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.1058984867197,
+    "longitude": 14.450192657940557,
+    "practiceType": "hospital",
+    "acceptingNew": false,
+    "yearsExperience": 23,
+    "pricePerSession": 660,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "Visceral",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "pracovní úrazy",
+      "děti",
+      "sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Visceral",
+      "McKenzie",
+      "Rehabilitace po úrazu",
+      "pracovní úrazy",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 82
+    },
+    "nextAvailableDays": 6,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Národní 85, Praha",
+    "phone": "+420 156 734 603",
+    "email": "anna.dvořák@rehab.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "318 49",
+    "homeVisitRadiusKm": 18,
+    "isFixture": true
+  },
+  {
+    "id": "t026",
+    "fullName": "Jana Černý",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.03757451084395,
+    "longitude": 14.401647327235198,
+    "practiceType": "clinic",
+    "acceptingNew": false,
+    "yearsExperience": 25,
+    "pricePerSession": 648,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs",
+      "ru",
+      "en"
+    ],
+    "specialties": [
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Cyriax",
+      "Kinesio Taping",
+      "Mulligan"
+    ],
+    "worksWith": [
+      "senioři",
+      "těhotné",
+      "dospívající"
+    ],
+    "tags": [
+      "Praha",
+      "Cyriax",
+      "Kinesio Taping",
+      "Bolesti zad / krku",
+      "senioři",
+      "těhotné"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.4,
+      "count": 142
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Ulice 180, Praha",
+    "phone": "+420 451 873 474",
+    "email": "jana.černý@fyzio.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "CPZP",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "309 57",
+    "homeVisitRadiusKm": 27,
+    "isFixture": true
+  },
+  {
+    "id": "t027",
+    "fullName": "Václav Horák",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.068464314935355,
+    "longitude": 14.38968885960706,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 16,
+    "pricePerSession": 664,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Roztroušená skleróza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Visceral",
+      "McKenzie",
+      "Mulligan",
+      "PNF"
+    ],
+    "worksWith": [
+      "sportovci",
+      "profesionální sportovci",
+      "rekreanti"
+    ],
+    "tags": [
+      "Praha",
+      "Visceral",
+      "McKenzie",
+      "Bolesti hlavy / migrény",
+      "sportovci",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Roztroušená skleróza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.5,
+      "count": 107
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Praha",
+    "address": "Národní 126, Praha",
+    "phone": "+420 578 665 452",
+    "email": "václav.horák@centrum.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "CPZP",
+      "OZP",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "817 55",
+    "homeVisitRadiusKm": 6,
+    "isFixture": true
+  },
+  {
+    "id": "t028",
+    "fullName": "Tomáš Veselý",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.090853188326456,
+    "longitude": 14.48611268821696,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 12,
+    "pricePerSession": 569,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Sportovní úraz",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Kinesio Taping",
+      "Mulligan",
+      "Manipulace",
+      "Cyriax"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "senioři"
+    ],
+    "tags": [
+      "Praha",
+      "Kinesio Taping",
+      "Mulligan",
+      "Sportovní úraz",
+      "rekreanti",
+      "Senioři"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 4.8,
+      "count": 121
+    },
+    "nextAvailableDays": 12,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Třída 145, Praha",
+    "phone": "+420 603 170 974",
+    "email": "tomáš.veselý@fyzio.cz",
+    "insuranceAccepted": [
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "918 86",
+    "homeVisitRadiusKm": 34,
+    "isFixture": true
+  },
+  {
+    "id": "t029",
+    "fullName": "Jan Horák",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.06596937273501,
+    "longitude": 14.437104180940782,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 3,
+    "pricePerSession": 517,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu",
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "PNF",
+      "Mobilizace"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "profesionální sportovci",
+      "dopravní nehody",
+      "senioři"
+    ],
+    "tags": [
+      "Praha",
+      "PNF",
+      "Mobilizace",
+      "Těhotenství / po porodu",
+      "rekreanti",
+      "profesionální sportovci",
+      "Senioři"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 209
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Národní 116, Praha",
+    "phone": "+420 769 840 291",
+    "email": "jan.horák@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "VOZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "895 95",
+    "homeVisitRadiusKm": 15,
+    "isFixture": true
+  },
+  {
+    "id": "t030",
+    "fullName": "Filip Sedláček",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.09045080693502,
+    "longitude": 14.4860842971759,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 9,
+    "pricePerSession": 704,
+    "priceRange": {
+      "minCZK": 500,
+      "maxCZK": 800
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Sportovní úraz",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Skolióza",
+      "Roztroušená skleróza",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "DNS",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "těhotné",
+      "děti",
+      "dopravní nehody"
+    ],
+    "tags": [
+      "Praha",
+      "DNS",
+      "Manipulace",
+      "Sportovní úraz",
+      "těhotné",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Skolióza",
+      "Roztroušená skleróza",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 4.1,
+      "count": 130
+    },
+    "nextAvailableDays": 10,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Třída 17, Praha",
+    "phone": "+420 453 984 795",
+    "email": "filip.sedláček@centrum.cz",
+    "insuranceAccepted": [
+      "ZPMV",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "345 33",
+    "homeVisitRadiusKm": 15,
+    "isFixture": true
+  },
+  {
+    "id": "t031",
+    "fullName": "Marie Jelínek",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.038812096485884,
+    "longitude": 14.403422504713795,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 21,
+    "pricePerSession": 1117,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Visceral",
+      "Bobath",
+      "PNF",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti",
+      "dopravní nehody"
+    ],
+    "tags": [
+      "Praha",
+      "Visceral",
+      "Bobath",
+      "Rehabilitace po operaci",
+      "sportovci",
+      "děti",
+      "Online"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.6,
+      "count": 121
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Ulice 16, Praha",
+    "phone": "+420 993 647 309",
+    "email": "marie.jelínek@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "422 89",
+    "homeVisitRadiusKm": 32,
+    "isFixture": true
+  },
+  {
+    "id": "t032",
+    "fullName": "Jan Doležal",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.061040683829745,
+    "longitude": 14.45953097282514,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 16,
+    "pricePerSession": 1047,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach",
+      "Sportovní úraz"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Kaltenborn",
+      "Manuální terapie",
+      "Cyriax",
+      "DNS"
+    ],
+    "worksWith": [
+      "profesionální sportovci"
+    ],
+    "tags": [
+      "Praha",
+      "Kaltenborn",
+      "Manuální terapie",
+      "Bolesti svalů / šlach",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.2,
+      "count": 20
+    },
+    "nextAvailableDays": 1,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Centrum Praha",
+    "address": "Národní 80, Praha",
+    "phone": "+420 335 887 191",
+    "email": "jan.doležal@fyzio.cz",
+    "insuranceAccepted": [
+      "ZPMV",
+      "OZP",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "754 80",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t033",
+    "fullName": "Jiří Kratochvíl",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.05827620795544,
+    "longitude": 14.41519750451354,
+    "practiceType": "clinic",
+    "acceptingNew": false,
+    "yearsExperience": 7,
+    "pricePerSession": 952,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Kinesio Taping",
+      "Kaltenborn"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "Praha",
+      "Kinesio Taping",
+      "Kaltenborn",
+      "Bolesti hlavy / migrény",
+      "těhotné"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.8,
+      "count": 23
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Praha",
+    "address": "Národní 43, Praha",
+    "phone": "+420 325 703 971",
+    "email": "jiří.kratochvíl@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "694 62",
+    "homeVisitRadiusKm": 19,
+    "isFixture": true
+  },
+  {
+    "id": "t034",
+    "fullName": "Jana Sedláček",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.11438418992526,
+    "longitude": 14.41195220998408,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 20,
+    "pricePerSession": 980,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Kinesio Taping",
+      "Cyriax",
+      "Visceral"
+    ],
+    "worksWith": [
+      "dospívající",
+      "těhotné"
+    ],
+    "tags": [
+      "Praha",
+      "Kinesio Taping",
+      "Cyriax",
+      "Rehabilitace po operaci",
+      "dospívající",
+      "těhotné"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.9,
+      "count": 184
+    },
+    "nextAvailableDays": 10,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Třída 8, Praha",
+    "phone": "+420 277 642 595",
+    "email": "jana.sedláček@rehab.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "213 73",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t035",
+    "fullName": "Adam Fiala",
+    "city": "Praha",
+    "regions": [
+      "Praha"
+    ],
+    "latitude": 50.037287427453144,
+    "longitude": 14.4438778987901,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 4,
+    "pricePerSession": 821,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "sk"
+    ],
+    "specialties": [
+      "Bolesti kloubů",
+      "Bolesti svalů / šlach"
+    ],
+    "diagnoses": [
+      "Skolióza"
+    ],
+    "modalities": [
+      "DNS",
+      "Manipulace",
+      "Kaltenborn"
+    ],
+    "worksWith": [
+      "děti",
+      "sportovci",
+      "rekreanti"
+    ],
+    "tags": [
+      "Praha",
+      "DNS",
+      "Manipulace",
+      "Bolesti kloubů",
+      "děti",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.6,
+      "count": 20
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Praha",
+    "address": "Ulice 146, Praha",
+    "phone": "+420 839 115 172",
+    "email": "adam.fiala@rehab.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "893 95",
+    "homeVisitRadiusKm": 12,
+    "isFixture": true
+  },
+  {
+    "id": "t036",
+    "fullName": "Tomáš Novotný",
+    "city": "Brno",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.17711405173271,
+    "longitude": 16.6174083262855,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 8,
+    "pricePerSession": 1032,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Jiné potíže",
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Skolióza",
+      "Roztroušená skleróza"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "senioři",
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Brno",
+      "DNS",
+      "McKenzie",
+      "Jiné potíže",
+      "senioři",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Skolióza",
+      "Roztroušená skleróza"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 154
+    },
+    "nextAvailableDays": 11,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Centrum Brno",
+    "address": "Ulice 42, Brno",
+    "phone": "+420 399 505 313",
+    "email": "tomáš.novotný@rehab.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "CPZP",
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "979 66",
+    "homeVisitRadiusKm": 33,
+    "isFixture": true
+  },
+  {
+    "id": "t037",
+    "fullName": "Lucie Fiala",
+    "city": "Brno",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.18726664121467,
+    "longitude": 16.5620705485466,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 20,
+    "pricePerSession": 1155,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Jiné potíže",
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [
+      "Skolióza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "DNS",
+      "Vojta",
+      "Bobath"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "Brno",
+      "DNS",
+      "Vojta",
+      "Jiné potíže",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Skolióza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 173
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Brno",
+    "address": "Náměstí 186, Brno",
+    "phone": "+420 285 635 390",
+    "email": "lucie.fiala@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "280 86",
+    "homeVisitRadiusKm": 7,
+    "isFixture": true
+  },
+  {
+    "id": "t038",
+    "fullName": "Markéta Jelínek",
+    "city": "Brno",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.22788333945412,
+    "longitude": 16.55689003139715,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 14,
+    "pricePerSession": 900,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach"
+    ],
+    "diagnoses": [
+      "Po operaci menisku",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Bobath",
+      "Dry Needling"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "těhotné",
+      "senioři"
+    ],
+    "tags": [
+      "Brno",
+      "Bobath",
+      "Dry Needling",
+      "Bolesti svalů / šlach",
+      "rekreanti",
+      "těhotné",
+      "Senioři"
+    ],
+    "diagnosisTags": [
+      "Po operaci menisku",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.5,
+      "count": 41
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Brno",
+    "address": "Národní 143, Brno",
+    "phone": "+420 650 316 793",
+    "email": "markéta.jelínek@fyzio.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "855 76",
+    "homeVisitRadiusKm": 10,
+    "isFixture": true
+  },
+  {
+    "id": "t039",
+    "fullName": "Lukáš Procházka",
+    "city": "Brno",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.17452005885185,
+    "longitude": 16.57051809405879,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 15,
+    "pricePerSession": 856,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu",
+      "Dlouhodobé onemocnění / diagnóza"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Dry Needling",
+      "DNS"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "těhotné"
+    ],
+    "tags": [
+      "Brno",
+      "Dry Needling",
+      "DNS",
+      "Rehabilitace po úrazu",
+      "rekreanti",
+      "těhotné"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.1,
+      "count": 95
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Brno",
+    "address": "Třída 144, Brno",
+    "phone": "+420 941 403 836",
+    "email": "lukáš.procházka@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "CPZP",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "256 14",
+    "homeVisitRadiusKm": 24,
+    "isFixture": true
+  },
+  {
+    "id": "t040",
+    "fullName": "Markéta Pospíšil",
+    "city": "Brno",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.21926467147736,
+    "longitude": 16.570761720887212,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 8,
+    "pricePerSession": 1753,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "sk",
+      "ru"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Kinesio Taping",
+      "Mulligan"
+    ],
+    "worksWith": [
+      "sportovci",
+      "těhotné",
+      "děti"
+    ],
+    "tags": [
+      "Brno",
+      "Kinesio Taping",
+      "Mulligan",
+      "Rehabilitace po úrazu",
+      "sportovci",
+      "těhotné"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.7,
+      "count": 158
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Brno",
+    "address": "Třída 111, Brno",
+    "phone": "+420 324 438 197",
+    "email": "markéta.pospíšil@rehab.cz",
+    "insuranceAccepted": [
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "669 46",
+    "homeVisitRadiusKm": 30,
+    "isFixture": true
+  },
+  {
+    "id": "t041",
+    "fullName": "David Svoboda",
+    "city": "Brno",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.19626481809907,
+    "longitude": 16.568030785340643,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 15,
+    "pricePerSession": 1181,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény",
+      "Sportovní úraz"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku",
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Manipulace"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "rekreanti"
+    ],
+    "tags": [
+      "Brno",
+      "Manipulace",
+      "Bolesti hlavy / migrény",
+      "profesionální sportovci",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku",
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 49
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Brno",
+    "address": "Ulice 149, Brno",
+    "phone": "+420 218 825 388",
+    "email": "david.svoboda@centrum.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "267 32",
+    "homeVisitRadiusKm": 32,
+    "isFixture": true
+  },
+  {
+    "id": "t042",
+    "fullName": "Monika Růžička",
+    "city": "Brno",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.208137096744224,
+    "longitude": 16.570292288688435,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 23,
+    "pricePerSession": 943,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "sk",
+      "ru"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Osteoporóza",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "Cyriax",
+      "Bobath",
+      "Manipulace",
+      "PNF"
+    ],
+    "worksWith": [
+      "dopravní nehody",
+      "pracovní úrazy",
+      "rekreanti"
+    ],
+    "tags": [
+      "Brno",
+      "Cyriax",
+      "Bobath",
+      "Bolesti hlavy / migrény",
+      "dopravní nehody",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Osteoporóza",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 3.9,
+      "count": 207
+    },
+    "nextAvailableDays": 1,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Brno",
+    "address": "Třída 56, Brno",
+    "phone": "+420 107 129 194",
+    "email": "monika.růžička@fyzio.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "149 98",
+    "homeVisitRadiusKm": 31,
+    "isFixture": true
+  },
+  {
+    "id": "t043",
+    "fullName": "Marie Veselý",
+    "city": "Brno",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.14960278836542,
+    "longitude": 16.58152206850879,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 22,
+    "pricePerSession": 847,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza",
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "Manipulace",
+      "McKenzie",
+      "PNF"
+    ],
+    "worksWith": [
+      "pracovní úrazy",
+      "děti"
+    ],
+    "tags": [
+      "Brno",
+      "Manipulace",
+      "McKenzie",
+      "Dlouhodobé onemocnění / diagnóza",
+      "pracovní úrazy",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 163
+    },
+    "nextAvailableDays": 11,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum Brno",
+    "address": "Ulice 60, Brno",
+    "phone": "+420 247 168 333",
+    "email": "marie.veselý@fyzio.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "CPZP",
+      "ZPŠ",
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "691 37",
+    "homeVisitRadiusKm": 31,
+    "isFixture": true
+  },
+  {
+    "id": "t044",
+    "fullName": "Marie Pokorný",
+    "city": "Brno",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.20207294512532,
+    "longitude": 16.62045228524118,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 22,
+    "pricePerSession": 1729,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Bolesti zad / krku",
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Dry Needling",
+      "Mobilizace",
+      "Bobath"
+    ],
+    "worksWith": [
+      "senioři",
+      "sportovci",
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Brno",
+      "Dry Needling",
+      "Mobilizace",
+      "Bolesti zad / krku",
+      "senioři",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.9,
+      "count": 96
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Brno",
+    "address": "Náměstí 105, Brno",
+    "phone": "+420 949 921 761",
+    "email": "marie.pokorný@rehab.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "RBP",
+      "OZP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "740 42",
+    "homeVisitRadiusKm": 28,
+    "isFixture": true
+  },
+  {
+    "id": "t045",
+    "fullName": "Věra Zeman",
+    "city": "Brno",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 49.182742595188884,
+    "longitude": 16.588028230322557,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 5,
+    "pricePerSession": 1819,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Mulligan",
+      "Mobilizace",
+      "Cyriax",
+      "Manuální terapie"
+    ],
+    "worksWith": [
+      "těhotné",
+      "děti"
+    ],
+    "tags": [
+      "Brno",
+      "Mulligan",
+      "Mobilizace",
+      "Bolesti svalů / šlach",
+      "těhotné",
+      "děti"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.7,
+      "count": 32
+    },
+    "nextAvailableDays": 8,
+    "workingHours": {
+      "morning": false,
+      "midday": false,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Brno",
+    "address": "Národní 104, Brno",
+    "phone": "+420 570 556 687",
+    "email": "věra.zeman@rehab.cz",
+    "insuranceAccepted": [
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "936 17",
+    "homeVisitRadiusKm": 34,
+    "isFixture": true
+  },
+  {
+    "id": "t046",
+    "fullName": "Alena Beneš",
+    "city": "Brno",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.212385239948766,
+    "longitude": 16.579545804072332,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 10,
+    "pricePerSession": 1937,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "PNF"
+    ],
+    "worksWith": [
+      "děti"
+    ],
+    "tags": [
+      "Brno",
+      "PNF",
+      "Bolesti zad / krku",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 4,
+      "count": 53
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Brno",
+    "address": "Národní 181, Brno",
+    "phone": "+420 444 460 994",
+    "email": "alena.beneš@centrum.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "355 88",
+    "homeVisitRadiusKm": 13,
+    "isFixture": true
+  },
+  {
+    "id": "t047",
+    "fullName": "Martin Veselý",
+    "city": "Brno",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.223547876631905,
+    "longitude": 16.590124524922043,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 19,
+    "pricePerSession": 1158,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Sportovní úraz",
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [
+      "Skolióza",
+      "Bechtěrev",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "Dry Needling",
+      "Kaltenborn",
+      "Manuální terapie"
+    ],
+    "worksWith": [
+      "těhotné",
+      "pracovní úrazy",
+      "sportovci"
+    ],
+    "tags": [
+      "Brno",
+      "Dry Needling",
+      "Kaltenborn",
+      "Sportovní úraz",
+      "těhotné",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Skolióza",
+      "Bechtěrev",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 138
+    },
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Brno",
+    "address": "Národní 140, Brno",
+    "phone": "+420 667 182 656",
+    "email": "martin.veselý@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "251 33",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t048",
+    "fullName": "Markéta Hájek",
+    "city": "Brno",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 49.190589996333095,
+    "longitude": 16.60892558896037,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 5,
+    "pricePerSession": 953,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "de"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "senioři",
+      "sportovci",
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Brno",
+      "Kinesio Taping",
+      "Rehabilitace po úrazu",
+      "senioři",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.9,
+      "count": 36
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": false,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum Brno",
+    "address": "Náměstí 164, Brno",
+    "phone": "+420 323 572 507",
+    "email": "markéta.hájek@rehab.cz",
+    "insuranceAccepted": [
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "987 21",
+    "homeVisitRadiusKm": 18,
+    "isFixture": true
+  },
+  {
+    "id": "t049",
+    "fullName": "Filip Dvořák",
+    "city": "Brno",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 49.19369700874418,
+    "longitude": 16.605380172060887,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 10,
+    "pricePerSession": 1113,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "uk"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza"
+    ],
+    "modalities": [
+      "Manipulace",
+      "Manuální terapie"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "Brno",
+      "Manipulace",
+      "Manuální terapie",
+      "Rehabilitace po operaci",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza"
+    ],
+    "rating": {
+      "average": 4.9,
+      "count": 84
+    },
+    "nextAvailableDays": 11,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Brno",
+    "address": "Ulice 178, Brno",
+    "phone": "+420 812 767 398",
+    "email": "filip.dvořák@rehab.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "991 48",
+    "homeVisitRadiusKm": 19,
+    "isFixture": true
+  },
+  {
+    "id": "t050",
+    "fullName": "David Procházka",
+    "city": "Brno",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.189558540981004,
+    "longitude": 16.614581823011875,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 19,
+    "pricePerSession": 830,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "uk"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény",
+      "Dlouhodobé onemocnění / diagnóza"
+    ],
+    "diagnoses": [
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Mulligan",
+      "Bobath",
+      "Vojta"
+    ],
+    "worksWith": [
+      "senioři"
+    ],
+    "tags": [
+      "Brno",
+      "Mulligan",
+      "Bobath",
+      "Bolesti hlavy / migrény",
+      "senioři",
+      "Vojta"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4,
+      "count": 82
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Centrum Brno",
+    "address": "Třída 16, Brno",
+    "phone": "+420 611 755 606",
+    "email": "david.procházka@fyzio.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "845 39",
+    "homeVisitRadiusKm": 13,
+    "isFixture": true
+  },
+  {
+    "id": "t051",
+    "fullName": "Marie Růžička",
+    "city": "Brno",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.20702671304313,
+    "longitude": 16.637258159893513,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 20,
+    "pricePerSession": 838,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "ru"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach",
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky",
+      "Po úrazu kotníku",
+      "Skolióza"
+    ],
+    "modalities": [
+      "McKenzie",
+      "PNF",
+      "Kinesio Taping",
+      "Vojta"
+    ],
+    "worksWith": [
+      "těhotné",
+      "děti",
+      "dopravní nehody"
+    ],
+    "tags": [
+      "Brno",
+      "McKenzie",
+      "PNF",
+      "Bolesti svalů / šlach",
+      "těhotné",
+      "děti",
+      "Vojta"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky",
+      "Po úrazu kotníku",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 110
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": true,
+      "midday": false,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Brno",
+    "address": "Třída 122, Brno",
+    "phone": "+420 574 759 364",
+    "email": "marie.růžička@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "CPZP",
+      "VOZP",
+      "ZP MV ČR"
+    ],
+    "isVerified": false,
+    "postalCode": "385 59",
+    "homeVisitRadiusKm": 25,
+    "isFixture": true
+  },
+  {
+    "id": "t052",
+    "fullName": "Jana Zeman",
+    "city": "Brno",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.20937046199503,
+    "longitude": 16.599457496895475,
+    "practiceType": "home_visits",
+    "acceptingNew": false,
+    "yearsExperience": 7,
+    "pricePerSession": 1519,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "sk"
+    ],
+    "specialties": [
+      "Bolesti kloubů",
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Mobilizace"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "sportovci"
+    ],
+    "tags": [
+      "Brno",
+      "Mobilizace",
+      "Bolesti kloubů",
+      "rekreanti",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4,
+      "count": 162
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Brno",
+    "address": "Národní 9, Brno",
+    "phone": "+420 248 287 474",
+    "email": "jana.zeman@fyzio.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "VZP",
+      "ZP MV ČR",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "763 72",
+    "homeVisitRadiusKm": 17,
+    "isFixture": true
+  },
+  {
+    "id": "t053",
+    "fullName": "Martin Doležal",
+    "city": "Brno",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 49.195404378729684,
+    "longitude": 16.567491528455452,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 25,
+    "pricePerSession": 840,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu",
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku",
+      "Po operaci menisku",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Bobath",
+      "DNS"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "Brno",
+      "Bobath",
+      "DNS",
+      "Těhotenství / po porodu",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku",
+      "Po operaci menisku",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4.6,
+      "count": 23
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Brno",
+    "address": "Ulice 11, Brno",
+    "phone": "+420 907 650 269",
+    "email": "martin.doležal@fyzio.cz",
+    "insuranceAccepted": [
+      "ZPMV",
+      "RBP",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "243 44",
+    "homeVisitRadiusKm": 27,
+    "isFixture": true
+  },
+  {
+    "id": "t054",
+    "fullName": "Martin Veselý",
+    "city": "Brno",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.23609667981579,
+    "longitude": 16.56187244489225,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 12,
+    "pricePerSession": 1138,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "de",
+      "uk"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza",
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Cyriax",
+      "DNS",
+      "Dry Needling",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "profesionální sportovci"
+    ],
+    "tags": [
+      "Brno",
+      "Cyriax",
+      "DNS",
+      "Dlouhodobé onemocnění / diagnóza",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.5,
+      "count": 124
+    },
+    "nextAvailableDays": 10,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Brno",
+    "address": "Náměstí 126, Brno",
+    "phone": "+420 993 976 555",
+    "email": "martin.veselý@rehab.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZPMV",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "243 70",
+    "homeVisitRadiusKm": 19,
+    "isFixture": true
+  },
+  {
+    "id": "t055",
+    "fullName": "Pavel Růžička",
+    "city": "Brno",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 49.21252519367478,
+    "longitude": 16.571178406901645,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 19,
+    "pricePerSession": 851,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "sk",
+      "de"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu",
+      "Dlouhodobé onemocnění / diagnóza"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "Cyriax",
+      "McKenzie",
+      "Bobath",
+      "Manuální terapie"
+    ],
+    "worksWith": [
+      "dopravní nehody",
+      "dospívající"
+    ],
+    "tags": [
+      "Brno",
+      "Cyriax",
+      "McKenzie",
+      "Rehabilitace po úrazu",
+      "dopravní nehody",
+      "dospívající"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 4.7,
+      "count": 161
+    },
+    "nextAvailableDays": 8,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Brno",
+    "address": "Náměstí 99, Brno",
+    "phone": "+420 237 298 478",
+    "email": "pavel.růžička@centrum.cz",
+    "insuranceAccepted": [
+      "CPZP",
+      "VZP",
+      "ZP MV ČR",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "325 56",
+    "homeVisitRadiusKm": 6,
+    "isFixture": true
+  },
+  {
+    "id": "t056",
+    "fullName": "Věra Veselý",
+    "city": "Ostrava",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.836859067099205,
+    "longitude": 18.215223371246303,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 21,
+    "pricePerSession": 1068,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "sk"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci",
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Po operaci menisku",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "DNS",
+      "Manipulace",
+      "Kinesio Taping",
+      "Cyriax"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "děti"
+    ],
+    "tags": [
+      "Ostrava",
+      "DNS",
+      "Manipulace",
+      "Rehabilitace po operaci",
+      "profesionální sportovci",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Po operaci menisku",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.7,
+      "count": 177
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Ostrava",
+    "address": "Třída 84, Ostrava",
+    "phone": "+420 314 949 942",
+    "email": "věra.veselý@rehab.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZPMV",
+      "VZP",
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "628 23",
+    "homeVisitRadiusKm": 17,
+    "isFixture": true
+  },
+  {
+    "id": "t057",
+    "fullName": "Marie Procházka",
+    "city": "Ostrava",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.831942532567346,
+    "longitude": 18.24566279111616,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 9,
+    "pricePerSession": 970,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci",
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "Bobath",
+      "Vojta",
+      "Manuální terapie",
+      "Cyriax"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "senioři",
+      "děti"
+    ],
+    "tags": [
+      "Ostrava",
+      "Bobath",
+      "Vojta",
+      "Rehabilitace po operaci",
+      "profesionální sportovci",
+      "senioři"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 4.1,
+      "count": 142
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Ostrava",
+    "address": "Ulice 69, Ostrava",
+    "phone": "+420 845 933 892",
+    "email": "marie.procházka@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "394 35",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t058",
+    "fullName": "Petra Pokorný",
+    "city": "Ostrava",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.87053388038019,
+    "longitude": 18.213127809736985,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 17,
+    "pricePerSession": 1175,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Sportovní úraz"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "PNF",
+      "Cyriax"
+    ],
+    "worksWith": [
+      "těhotné",
+      "sportovci",
+      "senioři"
+    ],
+    "tags": [
+      "Ostrava",
+      "PNF",
+      "Cyriax",
+      "Sportovní úraz",
+      "těhotné",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.5,
+      "count": 10
+    },
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Ostrava",
+    "address": "Náměstí 56, Ostrava",
+    "phone": "+420 625 111 495",
+    "email": "petra.pokorný@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "835 53",
+    "homeVisitRadiusKm": 11,
+    "isFixture": true
+  },
+  {
+    "id": "t059",
+    "fullName": "Petr Hájek",
+    "city": "Ostrava",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.823164165994825,
+    "longitude": 18.223410189506595,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 10,
+    "pricePerSession": 1064,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "de",
+      "en"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu",
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Bobath",
+      "DNS"
+    ],
+    "worksWith": [
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Ostrava",
+      "Bobath",
+      "DNS",
+      "Těhotenství / po porodu",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 19
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Centrum Ostrava",
+    "address": "Národní 75, Ostrava",
+    "phone": "+420 720 172 101",
+    "email": "petr.hájek@centrum.cz",
+    "insuranceAccepted": [
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "664 29",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t060",
+    "fullName": "Jakub Hájek",
+    "city": "Ostrava",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.869220145868624,
+    "longitude": 18.301431414362163,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 8,
+    "pricePerSession": 1012,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Výhřez ploténky",
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "McKenzie",
+      "Cyriax",
+      "Visceral",
+      "Kaltenborn"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "Ostrava",
+      "McKenzie",
+      "Cyriax",
+      "Rehabilitace po operaci",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Výhřez ploténky",
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 4.9,
+      "count": 134
+    },
+    "nextAvailableDays": 12,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Ostrava",
+    "address": "Náměstí 46, Ostrava",
+    "phone": "+420 537 639 874",
+    "email": "jakub.hájek@centrum.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "762 68",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t061",
+    "fullName": "Adam Kratochvíl",
+    "city": "Ostrava",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.80182491439951,
+    "longitude": 18.25231042375157,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 20,
+    "pricePerSession": 1165,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Manipulace",
+      "Visceral",
+      "Dry Needling",
+      "PNF"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "dospívající"
+    ],
+    "tags": [
+      "Ostrava",
+      "Manipulace",
+      "Visceral",
+      "Bolesti zad / krku",
+      "rekreanti",
+      "dospívající"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 18
+    },
+    "nextAvailableDays": 6,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum Ostrava",
+    "address": "Náměstí 5, Ostrava",
+    "phone": "+420 944 303 630",
+    "email": "adam.kratochvíl@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "OZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "944 25",
+    "homeVisitRadiusKm": 24,
+    "isFixture": true
+  },
+  {
+    "id": "t062",
+    "fullName": "Zuzana Veselý",
+    "city": "Ostrava",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.782917065401,
+    "longitude": 18.302406878933414,
+    "practiceType": "clinic",
+    "acceptingNew": false,
+    "yearsExperience": 12,
+    "pricePerSession": 977,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény",
+      "Dlouhodobé onemocnění / diagnóza"
+    ],
+    "diagnoses": [
+      "Skolióza",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "Manuální terapie",
+      "DNS"
+    ],
+    "worksWith": [
+      "těhotné",
+      "sportovci",
+      "senioři"
+    ],
+    "tags": [
+      "Ostrava",
+      "Manuální terapie",
+      "DNS",
+      "Bolesti hlavy / migrény",
+      "těhotné",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Skolióza",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 175
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Ostrava",
+    "address": "Náměstí 58, Ostrava",
+    "phone": "+420 629 962 884",
+    "email": "zuzana.veselý@rehab.cz",
+    "insuranceAccepted": [
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "837 10",
+    "homeVisitRadiusKm": 8,
+    "isFixture": true
+  },
+  {
+    "id": "t063",
+    "fullName": "Eva Pokorný",
+    "city": "Ostrava",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.808295571596766,
+    "longitude": 18.308755161547932,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 25,
+    "pricePerSession": 1152,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Bolesti zad / krku",
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "DNS",
+      "Mulligan"
+    ],
+    "worksWith": [
+      "senioři"
+    ],
+    "tags": [
+      "Ostrava",
+      "DNS",
+      "Mulligan",
+      "Bolesti zad / krku",
+      "senioři"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 158
+    },
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Ostrava",
+    "address": "Třída 88, Ostrava",
+    "phone": "+420 811 328 437",
+    "email": "eva.pokorný@centrum.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "943 15",
+    "homeVisitRadiusKm": 18,
+    "isFixture": true
+  },
+  {
+    "id": "t064",
+    "fullName": "Jiří Svoboda",
+    "city": "Ostrava",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.8209955609128,
+    "longitude": 18.27963433543758,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 23,
+    "pricePerSession": 918,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "de"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "Visceral",
+      "Mulligan",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "senioři",
+      "těhotné"
+    ],
+    "tags": [
+      "Ostrava",
+      "Visceral",
+      "Mulligan",
+      "Dlouhodobé onemocnění / diagnóza",
+      "rekreanti",
+      "senioři"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 3.7,
+      "count": 114
+    },
+    "nextAvailableDays": 10,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Ostrava",
+    "address": "Ulice 75, Ostrava",
+    "phone": "+420 970 467 925",
+    "email": "jiří.svoboda@rehab.cz",
+    "insuranceAccepted": [
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "346 29",
+    "homeVisitRadiusKm": 34,
+    "isFixture": true
+  },
+  {
+    "id": "t065",
+    "fullName": "Adam Procházka",
+    "city": "Ostrava",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.8679160543471,
+    "longitude": 18.263751926410222,
+    "practiceType": "clinic",
+    "acceptingNew": false,
+    "yearsExperience": 17,
+    "pricePerSession": 1087,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "uk"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Vojta",
+      "Mobilizace",
+      "Visceral"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "děti"
+    ],
+    "tags": [
+      "Ostrava",
+      "Vojta",
+      "Mobilizace",
+      "Rehabilitace po úrazu",
+      "profesionální sportovci",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4.1,
+      "count": 82
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Ostrava",
+    "address": "Ulice 33, Ostrava",
+    "phone": "+420 211 541 569",
+    "email": "adam.procházka@centrum.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "CPZP",
+      "VOZP",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "176 82",
+    "homeVisitRadiusKm": 6,
+    "isFixture": true
+  },
+  {
+    "id": "t066",
+    "fullName": "Martin Svoboda",
+    "city": "Plzeň",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.70516813871379,
+    "longitude": 13.419557062022005,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 22,
+    "pricePerSession": 1087,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [
+      "Bechtěrev",
+      "Skolióza",
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "Dry Needling",
+      "Bobath",
+      "McKenzie",
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "děti",
+      "sportovci"
+    ],
+    "tags": [
+      "Plzeň",
+      "Dry Needling",
+      "Bobath",
+      "Rehabilitace po úrazu",
+      "rekreanti",
+      "děti"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev",
+      "Skolióza",
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 3.9,
+      "count": 59
+    },
+    "nextAvailableDays": 8,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Plzeň",
+    "address": "Náměstí 178, Plzeň",
+    "phone": "+420 874 845 238",
+    "email": "martin.svoboda@fyzio.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "VZP",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "544 77",
+    "homeVisitRadiusKm": 34,
+    "isFixture": true
+  },
+  {
+    "id": "t067",
+    "fullName": "Jan Zeman",
+    "city": "Plzeň",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.75982761063931,
+    "longitude": 13.33528088115417,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 27,
+    "pricePerSession": 1179,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci",
+      "Jiné potíže"
+    ],
+    "diagnoses": [
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "Bobath",
+      "Manipulace",
+      "Cyriax"
+    ],
+    "worksWith": [
+      "děti",
+      "dospívající",
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Plzeň",
+      "Bobath",
+      "Manipulace",
+      "Rehabilitace po operaci",
+      "děti",
+      "dospívající"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 3.7,
+      "count": 94
+    },
+    "nextAvailableDays": 5,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Plzeň",
+    "address": "Náměstí 72, Plzeň",
+    "phone": "+420 967 297 969",
+    "email": "jan.zeman@fyzio.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "ZPMV",
+      "ZPŠ",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "695 76",
+    "homeVisitRadiusKm": 9,
+    "isFixture": true
+  },
+  {
+    "id": "t068",
+    "fullName": "Petr Procházka",
+    "city": "Plzeň",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.699100991760005,
+    "longitude": 13.34346858101,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 9,
+    "pricePerSession": 995,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "de"
+    ],
+    "specialties": [
+      "Bolesti kloubů",
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Cyriax",
+      "Kaltenborn",
+      "Mulligan",
+      "Visceral",
+      "Vojta"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "děti",
+      "senioři"
+    ],
+    "tags": [
+      "Plzeň",
+      "Cyriax",
+      "Kaltenborn",
+      "Bolesti kloubů",
+      "profesionální sportovci",
+      "děti",
+      "Vojta"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.3,
+      "count": 71
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum Plzeň",
+    "address": "Ulice 200, Plzeň",
+    "phone": "+420 880 541 940",
+    "email": "petr.procházka@rehab.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "933 58",
+    "homeVisitRadiusKm": 8,
+    "isFixture": true
+  },
+  {
+    "id": "t069",
+    "fullName": "Marie Hájek",
+    "city": "Plzeň",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.70816625596393,
+    "longitude": 13.358340328352686,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 10,
+    "pricePerSession": 1059,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Sportovní úraz"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Bobath",
+      "Mobilizace"
+    ],
+    "worksWith": [
+      "těhotné",
+      "sportovci"
+    ],
+    "tags": [
+      "Plzeň",
+      "Bobath",
+      "Mobilizace",
+      "Sportovní úraz",
+      "těhotné",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.5,
+      "count": 113
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Centrum Plzeň",
+    "address": "Třída 160, Plzeň",
+    "phone": "+420 922 420 365",
+    "email": "marie.hájek@fyzio.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "OZP",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "171 34",
+    "homeVisitRadiusKm": 21,
+    "isFixture": true
+  },
+  {
+    "id": "t070",
+    "fullName": "Irena Zeman",
+    "city": "Plzeň",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.73395265255843,
+    "longitude": 13.400292334167592,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 3,
+    "pricePerSession": 1149,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "sk"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Mobilizace"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "Plzeň",
+      "Mobilizace",
+      "Rehabilitace po operaci",
+      "těhotné"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.9,
+      "count": 97
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Plzeň",
+    "address": "Národní 38, Plzeň",
+    "phone": "+420 469 336 641",
+    "email": "irena.zeman@centrum.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "ZP MV ČR",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "837 21",
+    "homeVisitRadiusKm": 17,
+    "isFixture": true
+  },
+  {
+    "id": "t071",
+    "fullName": "Alena Beneš",
+    "city": "Plzeň",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.77348902074938,
+    "longitude": 13.331548565819942,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 23,
+    "pricePerSession": 1198,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "de",
+      "en"
+    ],
+    "specialties": [
+      "Bolesti zad / krku",
+      "Jiné potíže"
+    ],
+    "diagnoses": [
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Mobilizace",
+      "DNS",
+      "Cyriax"
+    ],
+    "worksWith": [
+      "pracovní úrazy",
+      "profesionální sportovci"
+    ],
+    "tags": [
+      "Plzeň",
+      "Mobilizace",
+      "DNS",
+      "Bolesti zad / krku",
+      "pracovní úrazy",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 204
+    },
+    "nextAvailableDays": 8,
+    "workingHours": {
+      "morning": false,
+      "midday": false,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Plzeň",
+    "address": "Národní 110, Plzeň",
+    "phone": "+420 935 256 865",
+    "email": "alena.beneš@centrum.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "ZP MV ČR",
+      "CPZP",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "492 17",
+    "homeVisitRadiusKm": 21,
+    "isFixture": true
+  },
+  {
+    "id": "t072",
+    "fullName": "Lenka Horák",
+    "city": "Plzeň",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.76722766547282,
+    "longitude": 13.339862216053668,
+    "practiceType": "clinic",
+    "acceptingNew": false,
+    "yearsExperience": 19,
+    "pricePerSession": 980,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Sportovní úraz",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "DNS",
+      "Mulligan"
+    ],
+    "worksWith": [
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Plzeň",
+      "DNS",
+      "Mulligan",
+      "Sportovní úraz",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.8,
+      "count": 167
+    },
+    "nextAvailableDays": 11,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Plzeň",
+    "address": "Národní 137, Plzeň",
+    "phone": "+420 184 822 845",
+    "email": "lenka.horák@rehab.cz",
+    "insuranceAccepted": [
+      "CPZP",
+      "RBP",
+      "ZPMV",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "980 89",
+    "homeVisitRadiusKm": 9,
+    "isFixture": true
+  },
+  {
+    "id": "t073",
+    "fullName": "Alena Sedláček",
+    "city": "Plzeň",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 49.725376287438564,
+    "longitude": 13.396012908181715,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 13,
+    "pricePerSession": 1195,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "sk"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza",
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Po operaci menisku",
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "modalities": [
+      "Mobilizace",
+      "Dry Needling"
+    ],
+    "worksWith": [
+      "sportovci"
+    ],
+    "tags": [
+      "Plzeň",
+      "Mobilizace",
+      "Dry Needling",
+      "Dlouhodobé onemocnění / diagnóza",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Po operaci menisku",
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.1,
+      "count": 188
+    },
+    "nextAvailableDays": 5,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Plzeň",
+    "address": "Třída 100, Plzeň",
+    "phone": "+420 592 526 843",
+    "email": "alena.sedláček@centrum.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "379 20",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t074",
+    "fullName": "Zuzana Veselý",
+    "city": "Olomouc",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.576833750032215,
+    "longitude": 17.293751065316492,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 22,
+    "pricePerSession": 1135,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti zad / krku",
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "Dry Needling",
+      "Manuální terapie"
+    ],
+    "worksWith": [
+      "děti"
+    ],
+    "tags": [
+      "Olomouc",
+      "Dry Needling",
+      "Manuální terapie",
+      "Bolesti zad / krku",
+      "děti",
+      "Rehabilitace"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 4,
+      "count": 129
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": true,
+      "midday": false,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Olomouc",
+    "address": "Náměstí 99, Olomouc",
+    "phone": "+420 162 311 561",
+    "email": "zuzana.veselý@centrum.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "279 14",
+    "homeVisitRadiusKm": 11,
+    "isFixture": true
+  },
+  {
+    "id": "t075",
+    "fullName": "Jan Černý",
+    "city": "Olomouc",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.572497758446616,
+    "longitude": 17.228990932452003,
+    "practiceType": "private",
+    "acceptingNew": false,
+    "yearsExperience": 8,
+    "pricePerSession": 1098,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti kloubů",
+      "Bolesti hlavy / migrény",
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "DNS"
+    ],
+    "worksWith": [
+      "dospívající",
+      "děti"
+    ],
+    "tags": [
+      "Olomouc",
+      "DNS",
+      "Bolesti kloubů",
+      "dospívající",
+      "děti",
+      "Rehabilitace"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 85
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum Olomouc",
+    "address": "Národní 92, Olomouc",
+    "phone": "+420 210 444 701",
+    "email": "jan.černý@rehab.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "467 61",
+    "homeVisitRadiusKm": 11,
+    "isFixture": true
+  },
+  {
+    "id": "t076",
+    "fullName": "Jana Jelínek",
+    "city": "Olomouc",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.62944011051395,
+    "longitude": 17.234007283692197,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 7,
+    "pricePerSession": 1159,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza",
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "modalities": [
+      "Vojta",
+      "Dry Needling",
+      "Mobilizace",
+      "Manuální terapie"
+    ],
+    "worksWith": [
+      "rekreanti"
+    ],
+    "tags": [
+      "Olomouc",
+      "Vojta",
+      "Dry Needling",
+      "Dlouhodobé onemocnění / diagnóza",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 191
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Olomouc",
+    "address": "Náměstí 32, Olomouc",
+    "phone": "+420 124 829 947",
+    "email": "jana.jelínek@fyzio.cz",
+    "insuranceAccepted": [
+      "ZPMV",
+      "VZP",
+      "CPZP",
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "631 84",
+    "homeVisitRadiusKm": 11,
+    "isFixture": true
+  },
+  {
+    "id": "t077",
+    "fullName": "Lenka Novák",
+    "city": "Olomouc",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 49.60743812840826,
+    "longitude": 17.236999839036457,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 21,
+    "pricePerSession": 1186,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "ru"
+    ],
+    "specialties": [
+      "Sportovní úraz",
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Po úrazu kotníku"
+    ],
+    "modalities": [
+      "Manuální terapie",
+      "Mulligan",
+      "Cyriax",
+      "Visceral"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "Olomouc",
+      "Manuální terapie",
+      "Mulligan",
+      "Sportovní úraz",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Po úrazu kotníku"
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 202
+    },
+    "nextAvailableDays": 5,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Olomouc",
+    "address": "Náměstí 37, Olomouc",
+    "phone": "+420 721 915 239",
+    "email": "lenka.novák@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZPŠ",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "488 47",
+    "homeVisitRadiusKm": 18,
+    "isFixture": true
+  },
+  {
+    "id": "t078",
+    "fullName": "Lenka Horák",
+    "city": "Olomouc",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 49.63702889746746,
+    "longitude": 17.299400225970736,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 27,
+    "pricePerSession": 865,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza",
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Cyriax",
+      "Vojta"
+    ],
+    "worksWith": [
+      "senioři"
+    ],
+    "tags": [
+      "Olomouc",
+      "Cyriax",
+      "Vojta",
+      "Dlouhodobé onemocnění / diagnóza",
+      "senioři"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.7,
+      "count": 67
+    },
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Olomouc",
+    "address": "Třída 96, Olomouc",
+    "phone": "+420 815 494 921",
+    "email": "lenka.horák@centrum.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "VOZP",
+      "ZPMV",
+      "OZP"
+    ],
+    "isVerified": true,
+    "postalCode": "445 93",
+    "homeVisitRadiusKm": 21,
+    "isFixture": true
+  },
+  {
+    "id": "t079",
+    "fullName": "Zuzana Sedláček",
+    "city": "Olomouc",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 49.59825792477628,
+    "longitude": 17.205726395555434,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 11,
+    "pricePerSession": 1119,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Jiné potíže",
+      "Rehabilitace po operaci"
+    ],
+    "diagnoses": [
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "Dry Needling",
+      "Bobath"
+    ],
+    "worksWith": [
+      "sportovci"
+    ],
+    "tags": [
+      "Olomouc",
+      "Dry Needling",
+      "Bobath",
+      "Jiné potíže",
+      "sportovci",
+      "Rehabilitace"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 185
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Olomouc",
+    "address": "Třída 85, Olomouc",
+    "phone": "+420 426 208 672",
+    "email": "zuzana.sedláček@centrum.cz",
+    "insuranceAccepted": [
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "664 58",
+    "homeVisitRadiusKm": 21,
+    "isFixture": true
+  },
+  {
+    "id": "t080",
+    "fullName": "Irena Kratochvíl",
+    "city": "Olomouc",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.584580910865824,
+    "longitude": 17.247975096067076,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 21,
+    "pricePerSession": 1157,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    },
+    "languages": [
+      "cs",
+      "sk",
+      "ru"
+    ],
+    "specialties": [
+      "Dlouhodobé onemocnění / diagnóza"
+    ],
+    "diagnoses": [
+      "Skolióza",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "McKenzie",
+      "Mobilizace"
+    ],
+    "worksWith": [
+      "pracovní úrazy",
+      "sportovci"
+    ],
+    "tags": [
+      "Olomouc",
+      "McKenzie",
+      "Mobilizace",
+      "Dlouhodobé onemocnění / diagnóza",
+      "pracovní úrazy",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Skolióza",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 3.6,
+      "count": 164
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Olomouc",
+    "address": "Národní 125, Olomouc",
+    "phone": "+420 714 315 737",
+    "email": "irena.kratochvíl@rehab.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "RBP",
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "532 33",
+    "homeVisitRadiusKm": 24,
+    "isFixture": true
+  },
+  {
+    "id": "t081",
+    "fullName": "Pavel Dvořák",
+    "city": "České Budějovice",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 48.95863620402833,
+    "longitude": 14.51161761046897,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 17,
+    "pricePerSession": 1304,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "ru",
+      "sk"
+    ],
+    "specialties": [
+      "Jiné potíže",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Dry Needling"
+    ],
+    "worksWith": [
+      "rekreanti",
+      "senioři"
+    ],
+    "tags": [
+      "České Budějovice",
+      "Dry Needling",
+      "Jiné potíže",
+      "rekreanti",
+      "senioři"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.5,
+      "count": 132
+    },
+    "nextAvailableDays": 6,
+    "workingHours": {
+      "morning": true,
+      "midday": false,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum České Budějovice",
+    "address": "Ulice 191, České Budějovice",
+    "phone": "+420 305 621 421",
+    "email": "pavel.dvořák@fyzio.cz",
+    "insuranceAccepted": [
+      "CPZP",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "492 41",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t082",
+    "fullName": "Eva Zeman",
+    "city": "České Budějovice",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 48.972280819919774,
+    "longitude": 14.459621489393077,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 17,
+    "pricePerSession": 1461,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku",
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "modalities": [
+      "McKenzie",
+      "Cyriax",
+      "Visceral",
+      "Vojta"
+    ],
+    "worksWith": [
+      "pracovní úrazy",
+      "dopravní nehody",
+      "rekreanti"
+    ],
+    "tags": [
+      "České Budějovice",
+      "McKenzie",
+      "Cyriax",
+      "Bolesti hlavy / migrény",
+      "pracovní úrazy",
+      "dopravní nehody",
+      "Vojta"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku",
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 3.5,
+      "count": 123
+    },
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Ordinace České Budějovice",
+    "address": "Třída 6, České Budějovice",
+    "phone": "+420 110 743 395",
+    "email": "eva.zeman@fyzio.cz",
+    "insuranceAccepted": [
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "989 42",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t083",
+    "fullName": "Marie Novák",
+    "city": "České Budějovice",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 48.96551001582213,
+    "longitude": 14.51045815828775,
+    "practiceType": "hospital",
+    "acceptingNew": false,
+    "yearsExperience": 18,
+    "pricePerSession": 1207,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "sk",
+      "ru"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu",
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [
+      "Skolióza"
+    ],
+    "modalities": [
+      "PNF",
+      "DNS",
+      "Dry Needling"
+    ],
+    "worksWith": [
+      "rekreanti"
+    ],
+    "tags": [
+      "České Budějovice",
+      "PNF",
+      "DNS",
+      "Rehabilitace po úrazu",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 161
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Centrum České Budějovice",
+    "address": "Národní 23, České Budějovice",
+    "phone": "+420 689 304 192",
+    "email": "marie.novák@centrum.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "396 31",
+    "homeVisitRadiusKm": 28,
+    "isFixture": true
+  },
+  {
+    "id": "t084",
+    "fullName": "Monika Doležal",
+    "city": "České Budějovice",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 48.95448702828614,
+    "longitude": 14.43777092345091,
+    "practiceType": "private",
+    "acceptingNew": false,
+    "yearsExperience": 22,
+    "pricePerSession": 1356,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Bolesti kloubů"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Roztroušená skleróza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Kinesio Taping",
+      "Mulligan"
+    ],
+    "worksWith": [
+      "dopravní nehody"
+    ],
+    "tags": [
+      "České Budějovice",
+      "Kinesio Taping",
+      "Mulligan",
+      "Bolesti kloubů",
+      "dopravní nehody"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Roztroušená skleróza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 118
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum České Budějovice",
+    "address": "Ulice 83, České Budějovice",
+    "phone": "+420 148 973 302",
+    "email": "monika.doležal@fyzio.cz",
+    "insuranceAccepted": [
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "761 28",
+    "homeVisitRadiusKm": 26,
+    "isFixture": true
+  },
+  {
+    "id": "t085",
+    "fullName": "Věra Beneš",
+    "city": "České Budějovice",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 48.956678866718015,
+    "longitude": 14.487588648767987,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 20,
+    "pricePerSession": 1766,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "de",
+      "en"
+    ],
+    "specialties": [
+      "Jiné potíže",
+      "Sportovní úraz"
+    ],
+    "diagnoses": [
+      "Po úrazu kotníku",
+      "Skolióza"
+    ],
+    "modalities": [
+      "Mulligan",
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "těhotné"
+    ],
+    "tags": [
+      "České Budějovice",
+      "Mulligan",
+      "DNS",
+      "Jiné potíže",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Po úrazu kotníku",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 120
+    },
+    "nextAvailableDays": 11,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace České Budějovice",
+    "address": "Ulice 114, České Budějovice",
+    "phone": "+420 385 660 651",
+    "email": "věra.beneš@centrum.cz",
+    "insuranceAccepted": [
+      "RBP",
+      "OZP",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "811 17",
+    "homeVisitRadiusKm": 34,
+    "isFixture": true
+  },
+  {
+    "id": "t086",
+    "fullName": "Eva Jelínek",
+    "city": "Hradec Králové",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 50.23802919968295,
+    "longitude": 15.865487870630588,
+    "practiceType": "home_visits",
+    "acceptingNew": false,
+    "yearsExperience": 27,
+    "pricePerSession": 1363,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény"
+    ],
+    "diagnoses": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "modalities": [
+      "Manipulace"
+    ],
+    "worksWith": [
+      "sportovci",
+      "rekreanti",
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Hradec Králové",
+      "Manipulace",
+      "Bolesti hlavy / migrény",
+      "sportovci",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 70
+    },
+    "nextAvailableDays": 13,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Centrum Hradec Králové",
+    "address": "Ulice 152, Hradec Králové",
+    "phone": "+420 880 884 909",
+    "email": "eva.jelínek@rehab.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "VZP",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "281 51",
+    "homeVisitRadiusKm": 14,
+    "isFixture": true
+  },
+  {
+    "id": "t087",
+    "fullName": "Lukáš Němec",
+    "city": "Hradec Králové",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 50.25561445035112,
+    "longitude": 15.781314775075614,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 21,
+    "pricePerSession": 1299,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Sportovní úraz"
+    ],
+    "diagnoses": [
+      "Bechtěrev",
+      "Skolióza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Vojta"
+    ],
+    "worksWith": [
+      "sportovci",
+      "rekreanti"
+    ],
+    "tags": [
+      "Hradec Králové",
+      "Vojta",
+      "Sportovní úraz",
+      "sportovci",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev",
+      "Skolióza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 4.7,
+      "count": 65
+    },
+    "nextAvailableDays": 12,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Hradec Králové",
+    "address": "Třída 174, Hradec Králové",
+    "phone": "+420 121 926 802",
+    "email": "lukáš.němec@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "ZPMV",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "942 27",
+    "homeVisitRadiusKm": 26,
+    "isFixture": true
+  },
+  {
+    "id": "t088",
+    "fullName": "Alena Kratochvíl",
+    "city": "Hradec Králové",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 50.25200331310927,
+    "longitude": 15.842448274299683,
+    "practiceType": "home_visits",
+    "acceptingNew": false,
+    "yearsExperience": 4,
+    "pricePerSession": 1974,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti hlavy / migrény",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "Kinesio Taping",
+      "PNF",
+      "Cyriax"
+    ],
+    "worksWith": [
+      "senioři",
+      "sportovci",
+      "profesionální sportovci"
+    ],
+    "tags": [
+      "Hradec Králové",
+      "Kinesio Taping",
+      "PNF",
+      "Bolesti hlavy / migrény",
+      "senioři",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.8,
+      "count": 118
+    },
+    "nextAvailableDays": 6,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Hradec Králové",
+    "address": "Třída 173, Hradec Králové",
+    "phone": "+420 321 324 413",
+    "email": "alena.kratochvíl@centrum.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPŠ",
+      "ZPMV",
+      "CPZP"
+    ],
+    "isVerified": true,
+    "postalCode": "592 77",
+    "homeVisitRadiusKm": 8,
+    "isFixture": true
+  },
+  {
+    "id": "t089",
+    "fullName": "Lucie Dvořák",
+    "city": "Hradec Králové",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 50.16859719521234,
+    "longitude": 15.855950965965109,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 7,
+    "pricePerSession": 1476,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti kloubů",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Po operaci menisku"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "pracovní úrazy"
+    ],
+    "tags": [
+      "Hradec Králové",
+      "DNS",
+      "McKenzie",
+      "Bolesti kloubů",
+      "pracovní úrazy",
+      "Online"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Po operaci menisku"
+    ],
+    "rating": {
+      "average": 4.6,
+      "count": 78
+    },
+    "nextAvailableDays": 8,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Hradec Králové",
+    "address": "Ulice 134, Hradec Králové",
+    "phone": "+420 735 803 188",
+    "email": "lucie.dvořák@fyzio.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV",
+      "RBP"
+    ],
+    "isVerified": true,
+    "postalCode": "226 24",
+    "homeVisitRadiusKm": 17,
+    "isFixture": true
+  },
+  {
+    "id": "t090",
+    "fullName": "Alena Doležal",
+    "city": "Liberec",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 50.7435213085609,
+    "longitude": 15.020948787339611,
+    "practiceType": "home_visits",
+    "acceptingNew": true,
+    "yearsExperience": 22,
+    "pricePerSession": 1560,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "de"
+    ],
+    "specialties": [
+      "Rehabilitace po operaci",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Bechtěrev",
+      "Skolióza",
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "McKenzie",
+      "Mobilizace",
+      "Kinesio Taping",
+      "Bobath"
+    ],
+    "worksWith": [
+      "těhotné",
+      "sportovci",
+      "dopravní nehody"
+    ],
+    "tags": [
+      "Liberec",
+      "McKenzie",
+      "Mobilizace",
+      "Rehabilitace po operaci",
+      "těhotné",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev",
+      "Skolióza",
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 4.2,
+      "count": 194
+    },
+    "nextAvailableDays": 10,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Liberec",
+    "address": "Náměstí 95, Liberec",
+    "phone": "+420 584 811 857",
+    "email": "alena.doležal@fyzio.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV",
+      "VOZP"
+    ],
+    "isVerified": true,
+    "postalCode": "517 24",
+    "homeVisitRadiusKm": 20,
+    "isFixture": true
+  },
+  {
+    "id": "t091",
+    "fullName": "Petr Pospíšil",
+    "city": "Liberec",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 50.78754636403876,
+    "longitude": 15.060036871665334,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 19,
+    "pricePerSession": 1894,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Po úrazu kotníku",
+      "Bechtěrev"
+    ],
+    "modalities": [
+      "Mulligan",
+      "Manipulace",
+      "Vojta"
+    ],
+    "worksWith": [
+      "těhotné",
+      "pracovní úrazy",
+      "rekreanti"
+    ],
+    "tags": [
+      "Liberec",
+      "Mulligan",
+      "Manipulace",
+      "Bolesti svalů / šlach",
+      "těhotné",
+      "pracovní úrazy"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Po úrazu kotníku",
+      "Bechtěrev"
+    ],
+    "rating": {
+      "average": 4.2,
+      "count": 120
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": false,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Liberec",
+    "address": "Národní 50, Liberec",
+    "phone": "+420 816 603 163",
+    "email": "petr.pospíšil@centrum.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR",
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "961 58",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t092",
+    "fullName": "Tomáš Hájek",
+    "city": "Liberec",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 50.72220277463736,
+    "longitude": 15.078888375773346,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 13,
+    "pricePerSession": 1493,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "DNS",
+      "Visceral",
+      "Kaltenborn",
+      "Manipulace"
+    ],
+    "worksWith": [
+      "těhotné",
+      "sportovci",
+      "profesionální sportovci"
+    ],
+    "tags": [
+      "Liberec",
+      "DNS",
+      "Visceral",
+      "Bolesti zad / krku",
+      "těhotné",
+      "sportovci"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 3.8,
+      "count": 23
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Ordinace Liberec",
+    "address": "Ulice 179, Liberec",
+    "phone": "+420 156 474 759",
+    "email": "tomáš.hájek@centrum.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "RBP",
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "667 83",
+    "homeVisitRadiusKm": 18,
+    "isFixture": true
+  },
+  {
+    "id": "t093",
+    "fullName": "Lucie Dvořák",
+    "city": "Pardubice",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 50.05462597329544,
+    "longitude": 15.808695805684325,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 16,
+    "pricePerSession": 1989,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "ru"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach"
+    ],
+    "diagnoses": [
+      "Skolióza"
+    ],
+    "modalities": [
+      "McKenzie"
+    ],
+    "worksWith": [
+      "senioři",
+      "rekreanti"
+    ],
+    "tags": [
+      "Pardubice",
+      "McKenzie",
+      "Bolesti svalů / šlach",
+      "senioři",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 40
+    },
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Centrum Pardubice",
+    "address": "Náměstí 83, Pardubice",
+    "phone": "+420 489 918 393",
+    "email": "lucie.dvořák@rehab.cz",
+    "insuranceAccepted": [
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "115 16",
+    "homeVisitRadiusKm": 9,
+    "isFixture": true
+  },
+  {
+    "id": "t094",
+    "fullName": "Jana Procházka",
+    "city": "Pardubice",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 50.07238924673831,
+    "longitude": 15.762248833272672,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "yearsExperience": 9,
+    "pricePerSession": 1968,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "ru",
+      "uk"
+    ],
+    "specialties": [
+      "Jiné potíže"
+    ],
+    "diagnoses": [
+      "Roztroušená skleróza",
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "těhotné",
+      "profesionální sportovci",
+      "sportovci"
+    ],
+    "tags": [
+      "Pardubice",
+      "Kinesio Taping",
+      "Jiné potíže",
+      "těhotné",
+      "profesionální sportovci"
+    ],
+    "diagnosisTags": [
+      "Roztroušená skleróza",
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 67
+    },
+    "nextAvailableDays": 14,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": true
+    },
+    "clinicName": "Rehabilitace Pardubice",
+    "address": "Náměstí 47, Pardubice",
+    "phone": "+420 572 520 330",
+    "email": "jana.procházka@fyzio.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "844 38",
+    "homeVisitRadiusKm": 13,
+    "isFixture": true
+  },
+  {
+    "id": "t095",
+    "fullName": "Jakub Hájek",
+    "city": "Pardubice",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 50.08173916506388,
+    "longitude": 15.77041078734982,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 3,
+    "pricePerSession": 1216,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "PNF"
+    ],
+    "worksWith": [
+      "děti",
+      "sportovci"
+    ],
+    "tags": [
+      "Pardubice",
+      "PNF",
+      "Bolesti zad / krku",
+      "děti",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.9,
+      "count": 114
+    },
+    "nextAvailableDays": 6,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Centrum Pardubice",
+    "address": "Třída 26, Pardubice",
+    "phone": "+420 273 966 431",
+    "email": "jakub.hájek@rehab.cz",
+    "insuranceAccepted": [
+      "ZPŠ",
+      "ZP MV ČR",
+      "VZP"
+    ],
+    "isVerified": true,
+    "postalCode": "317 29",
+    "homeVisitRadiusKm": 23,
+    "isFixture": true
+  },
+  {
+    "id": "t096",
+    "fullName": "Jiří Veselý",
+    "city": "Ústí nad Labem",
+    "regions": [
+      "Olomoucký"
+    ],
+    "latitude": 50.70240635365658,
+    "longitude": 14.006682974994963,
+    "practiceType": "online",
+    "acceptingNew": false,
+    "yearsExperience": 26,
+    "pricePerSession": 1869,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu",
+      "Bolesti svalů / šlach"
+    ],
+    "diagnoses": [
+      "Osteoporóza"
+    ],
+    "modalities": [
+      "DNS",
+      "Kinesio Taping"
+    ],
+    "worksWith": [
+      "rekreanti"
+    ],
+    "tags": [
+      "Ústí nad Labem",
+      "DNS",
+      "Kinesio Taping",
+      "Rehabilitace po úrazu",
+      "rekreanti"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza"
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 87
+    },
+    "nextAvailableDays": 9,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Fyzioterapie Ústí nad Labem",
+    "address": "Náměstí 181, Ústí nad Labem",
+    "phone": "+420 249 547 320",
+    "email": "jiří.veselý@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZP MV ČR",
+      "CPZP",
+      "ZPŠ"
+    ],
+    "isVerified": true,
+    "postalCode": "224 26",
+    "homeVisitRadiusKm": 6,
+    "isFixture": true
+  },
+  {
+    "id": "t097",
+    "fullName": "Jana Svoboda",
+    "city": "Ústí nad Labem",
+    "regions": [
+      "Středočeský"
+    ],
+    "latitude": 50.635243379303105,
+    "longitude": 14.031962970756084,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "yearsExperience": 26,
+    "pricePerSession": 1599,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "specialties": [
+      "Těhotenství / po porodu"
+    ],
+    "diagnoses": [],
+    "modalities": [
+      "PNF",
+      "Manipulace",
+      "Kaltenborn"
+    ],
+    "worksWith": [
+      "profesionální sportovci",
+      "dopravní nehody",
+      "těhotné"
+    ],
+    "tags": [
+      "Ústí nad Labem",
+      "PNF",
+      "Manipulace",
+      "Těhotenství / po porodu",
+      "profesionální sportovci",
+      "dopravní nehody"
+    ],
+    "diagnosisTags": [],
+    "rating": {
+      "average": 4.9,
+      "count": 108
+    },
+    "nextAvailableDays": 4,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Ústí nad Labem",
+    "address": "Třída 10, Ústí nad Labem",
+    "phone": "+420 456 658 269",
+    "email": "jana.svoboda@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "154 91",
+    "homeVisitRadiusKm": 30,
+    "isFixture": true
+  },
+  {
+    "id": "t098",
+    "fullName": "Jan Pospíšil",
+    "city": "Ústí nad Labem",
+    "regions": [
+      "Plzeňský"
+    ],
+    "latitude": 50.62830208759255,
+    "longitude": 14.073367463265395,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 13,
+    "pricePerSession": 1337,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en",
+      "de"
+    ],
+    "specialties": [
+      "Rehabilitace po úrazu"
+    ],
+    "diagnoses": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie",
+      "Vojta"
+    ],
+    "worksWith": [
+      "děti",
+      "těhotné",
+      "sportovci"
+    ],
+    "tags": [
+      "Ústí nad Labem",
+      "DNS",
+      "McKenzie",
+      "Rehabilitace po úrazu",
+      "děti",
+      "těhotné"
+    ],
+    "diagnosisTags": [
+      "Bechtěrev",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 157
+    },
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Rehabilitace Ústí nad Labem",
+    "address": "Náměstí 173, Ústí nad Labem",
+    "phone": "+420 984 279 379",
+    "email": "jan.pospíšil@rehab.cz",
+    "insuranceAccepted": [
+      "VOZP",
+      "ZPŠ",
+      "OZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "268 92",
+    "homeVisitRadiusKm": 16,
+    "isFixture": true
+  },
+  {
+    "id": "t099",
+    "fullName": "Jana Procházka",
+    "city": "Zlín",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "latitude": 49.18708363667532,
+    "longitude": 17.703835670723443,
+    "practiceType": "hospital",
+    "acceptingNew": true,
+    "yearsExperience": 22,
+    "pricePerSession": 1480,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach"
+    ],
+    "diagnoses": [
+      "Výhřez ploténky",
+      "Osteoporóza",
+      "Skolióza"
+    ],
+    "modalities": [
+      "McKenzie"
+    ],
+    "worksWith": [
+      "sportovci"
+    ],
+    "tags": [
+      "Zlín",
+      "McKenzie",
+      "Bolesti svalů / šlach",
+      "sportovci"
+    ],
+    "diagnosisTags": [
+      "Výhřez ploténky",
+      "Osteoporóza",
+      "Skolióza"
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 157
+    },
+    "nextAvailableDays": 8,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "clinicName": "Fyzioterapie Zlín",
+    "address": "Třída 104, Zlín",
+    "phone": "+420 425 943 666",
+    "email": "jana.procházka@fyzio.cz",
+    "insuranceAccepted": [
+      "OZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "postalCode": "649 79",
+    "homeVisitRadiusKm": 17,
+    "isFixture": true
+  },
+  {
+    "id": "t100",
+    "fullName": "Eva Beneš",
+    "city": "Zlín",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "latitude": 49.20711949097923,
+    "longitude": 17.70433522732292,
+    "practiceType": "private",
+    "acceptingNew": true,
+    "yearsExperience": 16,
+    "pricePerSession": 1885,
+    "priceRange": {
+      "minCZK": 1200,
+      "maxCZK": 2000
+    },
+    "languages": [
+      "cs",
+      "en",
+      "ru"
+    ],
+    "specialties": [
+      "Bolesti svalů / šlach",
+      "Bolesti zad / krku"
+    ],
+    "diagnoses": [
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "modalities": [
+      "Mulligan"
+    ],
+    "worksWith": [
+      "senioři"
+    ],
+    "tags": [
+      "Zlín",
+      "Mulligan",
+      "Bolesti svalů / šlach",
+      "senioři"
+    ],
+    "diagnosisTags": [
+      "Osteoporóza",
+      "Výhřez ploténky"
+    ],
+    "rating": {
+      "average": 3.8,
+      "count": 44
+    },
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "clinicName": "Ordinace Zlín",
+    "address": "Ulice 31, Zlín",
+    "phone": "+420 669 671 505",
+    "email": "eva.beneš@fyzio.cz",
+    "insuranceAccepted": [
+      "ZP MV ČR"
+    ],
+    "isVerified": true,
+    "postalCode": "988 39",
+    "homeVisitRadiusKm": 8,
+    "isFixture": true
+  }
+]

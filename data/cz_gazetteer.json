@@ -1,0 +1,58 @@
+[
+  {
+    "id": "praha",
+    "name_cz": "Praha",
+    "name_ascii": "praha",
+    "aliases": ["prague", "hlavni mesto praha", "praha 1", "praha 2", "praha 4", "prah"],
+    "psc": ["1xx xx", "11000", "12000", "14000"],
+    "kraj": "Hlavní město Praha",
+    "okres": "Praha",
+    "lat": 50.0755,
+    "lng": 14.4378,
+    "bbox": [14.2244, 49.9419, 14.7069, 50.1774],
+    "population": 1320000,
+    "geohash": "u2yhvp"
+  },
+  {
+    "id": "brno",
+    "name_cz": "Brno",
+    "name_ascii": "brno",
+    "aliases": ["brno-stred", "brno sever", "brno jih"],
+    "psc": ["60200", "60100", "61200"],
+    "kraj": "Jihomoravský",
+    "okres": "Brno-město",
+    "lat": 49.1951,
+    "lng": 16.6068,
+    "bbox": [16.4750, 49.1120, 16.7380, 49.2790],
+    "population": 380000,
+    "geohash": "u2fk9k"
+  },
+  {
+    "id": "ceske_budejovice",
+    "name_cz": "České Budějovice",
+    "name_ascii": "ceske budejovice",
+    "aliases": ["c. budejovice", "cb", "čb", "ceske budejovice-mesto", "37001"],
+    "psc": ["37001", "370 01", "37002"],
+    "kraj": "Jihočeský",
+    "okres": "České Budějovice",
+    "lat": 48.9747,
+    "lng": 14.4743,
+    "bbox": [14.3900, 48.9200, 14.5600, 49.0200],
+    "population": 94000,
+    "geohash": "u2y3ju"
+  },
+  {
+    "id": "hradec_kralove",
+    "name_cz": "Hradec Králové",
+    "name_ascii": "hradec kralove",
+    "aliases": ["hk", "hradec k", "králové hradec"],
+    "psc": ["50002", "50003"],
+    "kraj": "Královéhradecký",
+    "okres": "Hradec Králové",
+    "lat": 50.2104,
+    "lng": 15.8252,
+    "bbox": [15.6700, 50.1300, 15.9300, 50.2800],
+    "population": 93000,
+    "geohash": "u2zq6r"
+  }
+]

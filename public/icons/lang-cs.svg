@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Minimal Czech flag metaphor: banner with left triangle -->
+  <rect x="4" y="6" width="16" height="12" rx="2" ry="2" />
+  <path d="M4 6l8 6-8 6" />
+</svg>
+

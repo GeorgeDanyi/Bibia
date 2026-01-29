@@ -1,0 +1,4 @@
+Praha | 15 | male | cs | koleno po úrazu | clinic
+Kladno | 20 | male | cs | po úrazu kotník | clinic
+Liberec | 20 | any | cs | kotník | clinic
+Karlovy Vary | 30 | male | cs | ztuhlost krku | clinic

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "t001",
+    "name": "Dr. Anna Nováková",
+    "clinicName": "Fyzioterapie Praha",
+    "location": { "lat": 50.0755, "lon": 14.4378 },
+    "city": "Praha",
+    "specializations": ["backNeck", "sport", "posture"],
+    "diagnoses": ["scoliosis", "herniation"],
+    "worksWith": ["sportovci", "děti"],
+    "acceptedInsurers": ["VZP", "ZPMV"],
+    "isVerified": true,
+    "rating": { "avg": 4.8, "count": 127 },
+    "nextSlots": [{"startISO": "2024-01-15T09:00:00Z", "endISO": "2024-01-15T10:00:00Z"}],
+    "priceRange": { "minCZK": 800, "maxCZK": 1200 }
+  },
+  {
+    "id": "t002",
+    "name": "MUDr. Petr Svoboda",
+    "clinicName": "Rehabilitace Brno",
+    "location": { "lat": 49.1951, "lon": 16.6068 },
+    "city": "Brno",
+    "specializations": ["chronic", "neurological", "elderly"],
+    "diagnoses": ["ms", "parkinson"],
+    "worksWith": ["senioři", "chroničtí pacienti"],
+    "acceptedInsurers": ["VZP", "OZP"],
+    "isVerified": true,
+    "rating": { "avg": 4.6, "count": 89 },
+    "nextSlots": [{"startISO": "2024-01-16T14:00:00Z", "endISO": "2024-01-16T15:00:00Z"}],
+    "priceRange": { "minCZK": 700, "maxCZK": 1000 }
+  },
+  {
+    "id": "t003",
+    "name": "Bc. Marie Kratochvílová",
+    "clinicName": "Sportovní fyzioterapie",
+    "location": { "lat": 49.8209, "lon": 18.2625 },
+    "city": "Ostrava",
+    "specializations": ["sport", "injury", "performance"],
+    "diagnoses": ["sport injury", "tendinitis"],
+    "worksWith": ["sportovci", "profesionální atleti"],
+    "acceptedInsurers": ["VZP"],
+    "isVerified": true,
+    "rating": { "avg": 4.9, "count": 156 },
+    "nextSlots": [{"startISO": "2024-01-17T08:00:00Z", "endISO": "2024-01-17T09:00:00Z"}],
+    "priceRange": { "minCZK": 900, "maxCZK": 1300 }
+  }
+]

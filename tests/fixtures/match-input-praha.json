@@ -1,0 +1,9 @@
+{
+  "grouped": true,
+  "city": "Praha",
+  "diagnosisIds": ["spine_pain.low_back"],
+  "when": { "day": "mon", "timeSlot": "am" },
+  "genderPref": "any"
+}
+
+

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "therapist-1",
+    "name": "Dr. Anna Nováková",
+    "city": "Praha",
+    "specializations": ["sport", "spine", "postpartum"],
+    "languages": ["cs", "en"],
+    "rating": {
+      "average": 4.8,
+      "count": 127
+    },
+    "nextAvailableSlot": "2024-01-15T09:00:00Z",
+    "priceRange": {
+      "min": 800,
+      "max": 1200
+    }
+  },
+  {
+    "id": "therapist-2", 
+    "name": "Mgr. Petr Svoboda",
+    "city": "Brno",
+    "specializations": ["chronic", "joints", "seniors"],
+    "languages": ["cs", "de"],
+    "rating": {
+      "average": 4.6,
+      "count": 89
+    },
+    "nextAvailableSlot": "2024-01-16T14:00:00Z",
+    "priceRange": {
+      "min": 700,
+      "max": 1000
+    }
+  },
+  {
+    "id": "therapist-3",
+    "name": "Bc. Marie Kratochvílová", 
+    "city": "Ostrava",
+    "specializations": ["pregnancy", "womensHealth", "rehabInjury"],
+    "languages": ["cs", "sk"],
+    "rating": {
+      "average": 4.9,
+      "count": 156
+    },
+    "nextAvailableSlot": "2024-01-17T10:30:00Z",
+    "priceRange": {
+      "min": 750,
+      "max": 1100
+    }
+  }
+]

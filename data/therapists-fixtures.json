@@ -1,0 +1,46 @@
+[
+  {
+    "id": "t1",
+    "name": "Jana Novakova",
+    "city": "Praha",
+    "practiceType": ["office", "online"],
+    "skills": ["spine", "posture", "scoliosis", "pain_management"]
+  },
+  {
+    "id": "t2",
+    "name": "Petr Svoboda",
+    "city": "Brno",
+    "practiceType": ["office"],
+    "skills": ["knee", "sports", "postop"]
+  },
+  {
+    "id": "t3",
+    "name": "Lucie Dvorakova",
+    "city": "Ostrava",
+    "practiceType": ["online"],
+    "skills": ["neurology", "stroke", "ms"]
+  },
+  {
+    "id": "t4",
+    "name": "Marek Kral",
+    "city": "Plzen",
+    "practiceType": ["home", "office"],
+    "skills": ["hip", "postop", "orthopedic_rehab"]
+  },
+  {
+    "id": "t5",
+    "name": "Eva Prochazkova",
+    "city": "Praha",
+    "practiceType": ["office"],
+    "skills": ["oncology", "fatigue", "scar"]
+  },
+  {
+    "id": "t6",
+    "name": "Ondrej Sedlacek",
+    "city": "Brno",
+    "practiceType": ["office", "home"],
+    "skills": ["ankle", "sports", "foot", "overuse"]
+  }
+]
+
+

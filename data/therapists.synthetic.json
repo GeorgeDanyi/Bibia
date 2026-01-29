@@ -1,0 +1,782 @@
+[
+  {
+    "id": "physio-praha-1",
+    "full_name": "Mgr. Jan Praha",
+    "gender": "male",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Praha",
+    "locations": [
+      {
+        "city": "Praha",
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "barrier_free": true
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "insurers": [],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "injury",
+      "ankylosing_spondylitis"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior",
+      "child"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 5
+    },
+    "next_available_in_days": 3
+  },
+  {
+    "id": "physio-praha-2",
+    "full_name": "Bc. Petra Praha",
+    "gender": "female",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Praha",
+    "locations": [
+      {
+        "city": "Praha",
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "barrier_free": true
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "insurers": [
+      "111"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "injury",
+      "ankylosing_spondylitis"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior",
+      "child"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 5
+    },
+    "next_available_in_days": 5
+  },
+  {
+    "id": "physio-brno-1",
+    "full_name": "Mgr. Jana Brno",
+    "gender": "female",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Brno",
+    "locations": [
+      {
+        "city": "Brno",
+        "lat": 49.1951,
+        "lon": 16.6068,
+        "barrier_free": false
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "post_surgery"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 6
+    },
+    "next_available_in_days": 4
+  },
+  {
+    "id": "physio-ostrava-1",
+    "full_name": "Mgr. Jan Ostrava",
+    "gender": "male",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Ostrava",
+    "locations": [
+      {
+        "city": "Ostrava",
+        "lat": 49.8209,
+        "lon": 18.2625,
+        "barrier_free": false
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "lumbago"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 7
+    },
+    "next_available_in_days": 5
+  },
+  {
+    "id": "physio-kladno-1",
+    "full_name": "Mgr. Jana Kladno",
+    "gender": "female",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Kladno",
+    "locations": [
+      {
+        "city": "Kladno",
+        "lat": 50.1473,
+        "lon": 14.1029,
+        "barrier_free": false
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "injury"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 8
+    },
+    "next_available_in_days": 6
+  },
+  {
+    "id": "physio-plzen-1",
+    "full_name": "Mgr. Jan Plzeň",
+    "gender": "male",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Plzeň",
+    "locations": [
+      {
+        "city": "Plzeň",
+        "lat": 49.7384,
+        "lon": 13.3736,
+        "barrier_free": true
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "post_surgery"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.6000000000000005,
+      "count": 9
+    },
+    "next_available_in_days": 7
+  },
+  {
+    "id": "physio-liberec-1",
+    "full_name": "Mgr. Jana Liberec",
+    "gender": "female",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Liberec",
+    "locations": [
+      {
+        "city": "Liberec",
+        "lat": 50.7671,
+        "lon": 15.0562,
+        "barrier_free": false
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "lumbago"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior",
+      "child"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 10
+    },
+    "next_available_in_days": 8
+  },
+  {
+    "id": "physio-olomouc-1",
+    "full_name": "Mgr. Jan Olomouc",
+    "gender": "male",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Olomouc",
+    "locations": [
+      {
+        "city": "Olomouc",
+        "lat": 49.5938,
+        "lon": 17.2509,
+        "barrier_free": false
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs"
+    ],
+    "insurers": [],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "injury"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon",
+        "evening"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 11
+    },
+    "next_available_in_days": 9
+  },
+  {
+    "id": "physio-ceske-budejovice-1",
+    "full_name": "Mgr. Jana České Budějovice",
+    "gender": "female",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "České Budějovice",
+    "locations": [
+      {
+        "city": "České Budějovice",
+        "lat": 48.9747,
+        "lon": 14.4743,
+        "barrier_free": false
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs",
+      "uk"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "post_surgery"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 12
+    },
+    "next_available_in_days": 10
+  },
+  {
+    "id": "physio-hradec-kralove-1",
+    "full_name": "Mgr. Jan Hradec Králové",
+    "gender": "male",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Hradec Králové",
+    "locations": [
+      {
+        "city": "Hradec Králové",
+        "lat": 50.2104,
+        "lon": 15.8252,
+        "barrier_free": true
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "lumbago"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 13
+    },
+    "next_available_in_days": 11
+  },
+  {
+    "id": "physio-hradec-kralove-2",
+    "full_name": "Bc. Petra Hradec Králové",
+    "gender": "female",
+    "accepting_new": true,
+    "meeting_modes": [
+      "clinic"
+    ],
+    "base_city": "Hradec Králové",
+    "locations": [
+      {
+        "city": "Hradec Králové",
+        "lat": 50.2104,
+        "lon": 15.8252,
+        "barrier_free": true
+      }
+    ],
+    "service_radius_km": 0,
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "insurers": [
+      "111",
+      "201"
+    ],
+    "specialties": [
+      "lower_limb",
+      "ankle",
+      "knee"
+    ],
+    "diagnosis_expertise": [
+      "lumbago"
+    ],
+    "patient_groups": [
+      "adult",
+      "senior"
+    ],
+    "weekly_availability": {
+      "Mon": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Tue": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Wed": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Thu": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ],
+      "Fri": [
+        "morning",
+        "late_morning",
+        "afternoon"
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 13
+    },
+    "next_available_in_days": 13
+  }
+]

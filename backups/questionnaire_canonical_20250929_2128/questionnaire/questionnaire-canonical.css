@@ -1,0 +1,659 @@
+/* Questionnaire V1 - ART S1 Redesigned Styles */
+
+:root {
+  /* Typography tokens */
+  --fs-h1: 24px;
+  --fs-body: 16px;
+  --fs-sub: 14px;
+  
+  /* Spacing tokens */
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  
+  /* Radius tokens */
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  
+  /* Seafoam colors */
+  --seafoam-50: #f0fdfa;
+  --seafoam-100: #ccfbf1;
+  --seafoam-500: #14b8a6;
+  --seafoam-600: #0d9488;
+  
+  /* Sidebar width */
+  --sidebar-width: 240px;
+}
+
+/* Subtle header strip */
+.questionnaire-v1-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: var(--space-sm) var(--space-lg);
+}
+
+.questionnaire-v1-header .back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--fs-sub);
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.questionnaire-v1-header .back-link:hover {
+  color: #374151;
+}
+
+/* Main content layout */
+.questionnaire-v1-main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+}
+
+/* (reverted) removed centered wrappers */
+
+/* Progress rail updates */
+.questionnaire-v1-progress-rail {
+  width: 320px;
+  background: #f9fafb;
+  border-right: 1px solid #e5e7eb;
+  padding: var(--space-lg);
+}
+
+.questionnaire-v1-progress-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+  margin-bottom: var(--space-xs);
+  min-height: 44px;
+}
+
+.questionnaire-v1-progress-item.active {
+  min-height: 56px;
+  background: linear-gradient(135deg, #14b8a6, #0d9488);
+  color: white;
+  box-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+}
+
+.questionnaire-v1-progress-item.completed {
+  background: #f0fdfa;
+  color: #14b8a6;
+  border: 1px solid rgba(20, 184, 166, 0.2);
+}
+
+.questionnaire-v1-progress-item.muted {
+  opacity: 0.6;
+  color: #6b7280;
+}
+
+.questionnaire-v1-progress-item:hover:not(.active) {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+/* Card base styles */
+.questionnaire-v1-card {
+  border-radius: 14px;
+  padding: 16px 18px;
+  gap: var(--space-sm);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  min-height: 44px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+}
+
+.questionnaire-v1-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  border-color: #d1d5db;
+}
+
+.questionnaire-v1-card.active {
+  border: 2px solid var(--seafoam-600);
+  background: var(--seafoam-50);
+  box-shadow: 0 2px 12px rgba(13, 148, 136, 0.15);
+}
+
+.questionnaire-v1-card:focus {
+  outline: 2px solid var(--seafoam-500);
+  outline-offset: 2px;
+}
+
+/* Card content */
+.questionnaire-v1-card-icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 6px;
+  color: var(--seafoam-600);
+  transition: color 0.2s ease;
+}
+
+.questionnaire-v1-card.active .questionnaire-v1-card-icon {
+  color: var(--seafoam-600);
+}
+
+.questionnaire-v1-card:hover .questionnaire-v1-card-icon {
+  color: var(--seafoam-600);
+}
+
+.questionnaire-v1-card-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 3px;
+}
+
+.questionnaire-v1-card-sublabel {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+/* Step 1 specific styles */
+.questionnaire-v1-city-input {
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: var(--space-md) var(--space-lg);
+  font-size: 16px;
+  transition: all 0.2s ease;
+  height: 48px;
+  box-shadow: none;
+}
+
+.questionnaire-v1-city-input:focus {
+  outline: none;
+  border-color: var(--seafoam-500);
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+.questionnaire-v1-location-button {
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--fs-sub);
+  background: white;
+  color: #6b7280;
+  transition: all 0.2s ease;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.questionnaire-v1-location-button:hover {
+  border-color: var(--seafoam-500);
+  color: var(--seafoam-500);
+}
+
+/* Step 2 grid */
+.questionnaire-v1-grid {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.questionnaire-v1-grid.desktop-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.questionnaire-v1-grid.tablet-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.questionnaire-v1-grid.mobile-1 {
+  grid-template-columns: 1fr;
+}
+
+/* Pills */
+.questionnaire-v1-pill {
+  border-radius: 9999px;
+  border: 2px solid #d1d5db;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--fs-sub);
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: #6b7280;
+}
+
+.questionnaire-v1-pill:hover {
+  border-color: var(--seafoam-500);
+  color: var(--seafoam-500);
+}
+
+.questionnaire-v1-pill.active {
+  background: var(--seafoam-500);
+  border-color: var(--seafoam-500);
+  color: white;
+  font-weight: 600;
+}
+
+/* CTA styles */
+.questionnaire-v1-cta {
+  min-height: 44px;
+  border-radius: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.questionnaire-v1-cta.primary {
+  background: var(--seafoam-600);
+  color: white;
+  border: none;
+  padding: var(--space-md) var(--space-xl);
+  width: fit-content;
+}
+
+.questionnaire-v1-cta.primary:hover {
+  background: var(--seafoam-600);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.3);
+}
+
+.questionnaire-v1-cta.secondary {
+  background: white;
+  color: #6b7280;
+  border: 2px solid #d1d5db;
+  padding: var(--space-sm) var(--space-lg);
+}
+
+.questionnaire-v1-cta.secondary:hover:not(:disabled) {
+  border-color: #9ca3af;
+  color: #374151;
+}
+
+.questionnaire-v1-cta:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Minimal footer */
+.questionnaire-v1-footer {
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  padding: var(--space-lg);
+  text-align: center;
+  font-size: var(--fs-sub);
+  color: #6b7280;
+}
+
+/* Floating Home Button */
+.floating-home-button {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 50;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.floating-home-button:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.floating-home-button:focus {
+  outline: 2px solid var(--seafoam-500);
+  outline-offset: 2px;
+}
+
+/* Progress Circle Styles */
+.progress-circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-circle svg {
+  width: 80px;
+  height: 80px;
+  transform: rotate(-90deg);
+}
+
+.progress-circle .progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Sidebar Styles */
+.questionnaire-sidebar {
+  width: var(--sidebar-width);
+  background: #f9fafb;
+  border-right: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.questionnaire-sidebar .progress-section {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+}
+
+.questionnaire-sidebar .steps-list {
+  padding: 0 var(--space-lg) var(--space-lg);
+}
+
+.questionnaire-sidebar .step-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+  margin-bottom: var(--space-xs);
+  min-height: 44px;
+}
+
+.questionnaire-sidebar .step-item.active {
+  background: var(--seafoam-600);
+  color: white;
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.3);
+  min-height: 56px;
+}
+
+.questionnaire-sidebar .step-item.completed {
+  background: #f0fdfa;
+  color: #14b8a6;
+  border: 1px solid rgba(20, 184, 166, 0.2);
+}
+
+.questionnaire-sidebar .step-item.future {
+  opacity: 0.6;
+  color: #6b7280;
+}
+
+.questionnaire-sidebar .step-item:hover:not(.active) {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+/* Mobile Progress Bar */
+.mobile-progress-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: var(--space-sm) var(--space-md);
+}
+
+.mobile-progress-bar .progress-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.mobile-progress-bar .progress-circle {
+  width: 32px;
+  height: 32px;
+}
+
+.mobile-progress-bar .progress-circle svg {
+  width: 32px;
+  height: 32px;
+}
+
+.mobile-progress-bar .progress-text {
+  font-size: 12px;
+}
+
+/* City Input Primary Styling */
+.city-input-primary {
+  height: 48px;
+  min-width: 360px;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  font-size: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.city-input-primary:focus {
+  outline: none;
+  border-color: var(--seafoam-500);
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1), 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.city-input-primary:hover:not(:focus) {
+  border-color: #d1d5db;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.city-input-primary::placeholder {
+  color: #9ca3af;
+  transition: color 0.3s ease;
+}
+
+.city-input-primary:focus::placeholder {
+  color: #d1d5db;
+}
+
+/* Location Button */
+.location-button {
+  height: 48px;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  color: #6b7280;
+  font-size: var(--fs-sub);
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.location-button:hover {
+  border-color: var(--seafoam-500);
+  color: var(--seafoam-500);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.location-button:focus {
+  outline: none;
+  border-color: var(--seafoam-500);
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1), 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Care Type Cards - Enhanced Styling */
+.care-type-card {
+  width: 288px;
+  height: 160px;
+  padding: 20px 24px;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.care-type-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.02), rgba(13, 148, 136, 0.02));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.care-type-card:hover {
+  border-color: rgba(20, 184, 166, 0.3);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.care-type-card:hover::before {
+  opacity: 1;
+}
+
+.care-type-card.active {
+  border: 1px solid var(--seafoam-600);
+  background: var(--seafoam-50);
+  box-shadow: 0 6px 20px rgba(13, 148, 136, 0.15);
+  transform: scale(1.02);
+}
+
+.care-type-card.active::before {
+  opacity: 1;
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.05), rgba(13, 148, 136, 0.05));
+}
+
+.care-type-card .icon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 12px;
+  color: var(--seafoam-600);
+  transition: color 0.3s ease;
+}
+
+.care-type-card:hover .icon {
+  color: var(--seafoam-600);
+}
+
+.care-type-card .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 6px;
+  transition: color 0.3s ease;
+}
+
+.care-type-card .subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+/* Responsive breakpoints for ART S1 design */
+@media (max-width: 1023px) {
+  /* Hide sidebar on tablet and mobile */
+  .questionnaire-sidebar {
+    display: none;
+  }
+  
+  /* Show mobile progress bar */
+  .mobile-progress-bar {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Hide mobile progress bar on desktop */
+  .mobile-progress-bar {
+    display: none;
+  }
+  
+  /* Show sidebar on desktop */
+  .questionnaire-sidebar {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Mobile styles for Step 1 */
+  .city-input-primary {
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+  }
+  
+  .location-button {
+    width: 100%;
+  }
+  
+  .care-type-card {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Ensure proper spacing on mobile */
+  .mobile-progress-bar {
+    padding: var(--space-sm) var(--space-md);
+  }
+  
+  /* Floating home button positioning on mobile */
+  .floating-home-button {
+    top: 12px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 641px) {
+  /* Tablet styles */
+  .care-type-card {
+    min-width: 240px;
+  }
+  
+  .city-input-primary {
+    min-width: 320px;
+  }
+}
+
+/* (reverted) removed centered layout media queries */

@@ -1,0 +1,20 @@
+{
+  "kotnik": ["lower_limb", "ankle"],
+  "kotniku": ["lower_limb", "ankle"],
+  "hlezno": ["lower_limb", "ankle"],
+  "ankle": ["lower_limb", "ankle"],
+  
+  "koleno": ["lower_limb", "knee"],
+  "knee": ["lower_limb", "knee"],
+  
+  "rameno": ["upper_limb", "shoulder"],
+  "shoulder": ["upper_limb", "shoulder"],
+  
+  "zapesti": ["upper_limb", "wrist"],
+  "wrist": ["upper_limb", "wrist"],
+  
+  "uraz": "injury",
+  "po urazu": "injury",
+  "poraneni": "injury",
+  "injury": "injury"
+}

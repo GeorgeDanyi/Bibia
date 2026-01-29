@@ -1,0 +1,25 @@
+{
+  "id": "",
+  "full_name": "",
+  "gender": "man",
+  "accepting_new": true,
+  "meeting_modes": ["clinic_visit"],
+  "base_city": "Prahaa",
+  "locations": [
+    { "city": "Prahaa", "lat": 52.0, "lon": 20.0, "barrier_free": false }
+  ],
+  "languages": ["cs", "eng"],
+  "insurers": ["unknown_insurer"],
+  "specialties": ["lowerback"],
+  "diagnosis_expertise": [""],
+  "patient_groups": ["teen"],
+  "weekly_availability": {
+    "Mo": ["mornin"],
+    "Xxx": ["night"]
+  },
+  "price_info": { "range_czk": { "min": 1500, "max": 1000 } },
+  "rating": { "average": 5.5, "count": -1 },
+  "next_available_in_days": 400
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "id": "jan-novak-001",
+  "full_name": "Jan Novák",
+  "gender": "male",
+  "accepting_new": true,
+  "meeting_modes": ["clinic", "online"],
+  "base_city": "Praha",
+  "locations": [
+    { "city": "Praha", "lat": 50.087, "lon": 14.421, "barrier_free": true }
+  ],
+  "languages": ["cs", "en"],
+  "insurers": ["vzp", "ozp"],
+  "specialties": ["spine", "lumbar", "running"],
+  "diagnosis_expertise": ["dx_sciatica", "dx_low_back_pain"],
+  "patient_groups": ["adult", "senior"],
+  "weekly_availability": {
+    "Mon": ["morning", "afternoon"],
+    "Wed": ["evening"],
+    "Sat": ["weekend"]
+  },
+  "price_info": { "range_czk": { "min": 800, "max": 1200 } },
+  "rating": { "average": 4.7, "count": 35 },
+  "next_available_in_days": 3
+}
+
+

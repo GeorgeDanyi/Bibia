@@ -1,0 +1,76 @@
+{
+  "environment": "development",
+  "dataset": "/data/fixtures.json",
+  "datasetSize": 100,
+  "testedTherapists": [
+    {
+      "id": "prague_bc_e",
+      "name": "Bc. E",
+      "city": "Praha",
+      "specialization": "bechterev"
+    },
+    {
+      "id": "prague_mgr_d",
+      "name": "Mgr. D",
+      "city": "Praha",
+      "specialization": "backneck"
+    },
+    {
+      "id": "brno_mgr_f",
+      "name": "Mgr. F",
+      "city": "Brno",
+      "specialization": "backneck"
+    }
+  ],
+  "testResults": [
+    {
+      "testCase": "TC1 — City Match",
+      "status": "FAIL",
+      "details": "API returned 500",
+      "duration": 21
+    },
+    {
+      "testCase": "TC2 — Specialization Match",
+      "status": "FAIL",
+      "details": "API returned 500",
+      "duration": 1
+    },
+    {
+      "testCase": "TC3 — Combined Filters",
+      "status": "FAIL",
+      "details": "API returned 500",
+      "duration": 1
+    },
+    {
+      "testCase": "TC4 — Name Lookup",
+      "status": "FAIL",
+      "details": "API returned 500 - name search may not be implemented",
+      "duration": 1
+    },
+    {
+      "testCase": "TC5 — Negative Test",
+      "status": "PASS",
+      "details": "API correctly rejected invalid location (500)",
+      "duration": 1
+    },
+    {
+      "testCase": "Network Request Validation",
+      "status": "FAIL",
+      "details": "Network request failed with status 500",
+      "duration": 1
+    },
+    {
+      "testCase": "Profile Data Matching",
+      "status": "FAIL",
+      "details": "API returned 500",
+      "duration": 1
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 1,
+    "failed": 6,
+    "passRate": 14
+  },
+  "timestamp": "2025-10-01T11:49:38.757Z"
+}

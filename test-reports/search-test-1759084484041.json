@@ -1,0 +1,76 @@
+{
+  "environment": "development",
+  "dataset": "/data/fixtures.json",
+  "datasetSize": 100,
+  "testedTherapists": [
+    {
+      "id": "prague_bc_e",
+      "name": "Bc. E",
+      "city": "Praha",
+      "specialization": "bechterev"
+    },
+    {
+      "id": "prague_mgr_d",
+      "name": "Mgr. D",
+      "city": "Praha",
+      "specialization": "backneck"
+    },
+    {
+      "id": "brno_mgr_f",
+      "name": "Mgr. F",
+      "city": "Brno",
+      "specialization": "backneck"
+    }
+  ],
+  "testResults": [
+    {
+      "testCase": "TC1 — City Match",
+      "status": "PASS",
+      "details": "Found 2 results, including Praha therapists",
+      "duration": 31
+    },
+    {
+      "testCase": "TC2 — Specialization Match",
+      "status": "PASS",
+      "details": "Found 2 results with matching specializations",
+      "duration": 9
+    },
+    {
+      "testCase": "TC3 — Combined Filters",
+      "status": "PASS",
+      "details": "Found 1 results matching all criteria",
+      "duration": 9
+    },
+    {
+      "testCase": "TC4 — Name Lookup",
+      "status": "FAIL",
+      "details": "Exact name match not found in results",
+      "duration": 8
+    },
+    {
+      "testCase": "TC5 — Negative Test",
+      "status": "PASS",
+      "details": "API used fallback geocoding and returned 2 results from known cities",
+      "duration": 10
+    },
+    {
+      "testCase": "Network Request Validation",
+      "status": "PASS",
+      "details": "Network request successful with proper response structure",
+      "duration": 7
+    },
+    {
+      "testCase": "Profile Data Matching",
+      "status": "PASS",
+      "details": "Profile data contains all required fields with correct structure",
+      "duration": 8
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 6,
+    "failed": 1,
+    "passRate": 86
+  },
+  "timestamp": "2025-09-28T18:34:43.958Z"
+}

@@ -1,0 +1,179 @@
+{
+  "total": 100,
+  "requirements": {
+    "cityDistribution": {
+      "Praha": {
+        "expected": 35,
+        "actual": 35,
+        "status": "PASS"
+      },
+      "Brno": {
+        "expected": 20,
+        "actual": 20,
+        "status": "PASS"
+      },
+      "Ostrava": {
+        "expected": 10,
+        "actual": 10,
+        "status": "PASS"
+      },
+      "Plzeň": {
+        "expected": 8,
+        "actual": 8,
+        "status": "PASS"
+      },
+      "Olomouc": {
+        "expected": 7,
+        "actual": 7,
+        "status": "PASS"
+      },
+      "others": {
+        "expected": 20,
+        "actual": 20,
+        "status": "PASS"
+      }
+    },
+    "conditionCoverage": {
+      "Bolesti zad / krku": {
+        "count": 26,
+        "status": "WARN"
+      },
+      "Bolesti kloubů": {
+        "count": 15,
+        "status": "WARN"
+      },
+      "Bolesti svalů / šlach": {
+        "count": 12,
+        "status": "PASS"
+      },
+      "Bolesti hlavy / migrény": {
+        "count": 19,
+        "status": "WARN"
+      },
+      "Sportovní úraz": {
+        "count": 15,
+        "status": "WARN"
+      },
+      "Rehabilitace po operaci": {
+        "count": 18,
+        "status": "WARN"
+      },
+      "Rehabilitace po úrazu": {
+        "count": 13,
+        "status": "WARN"
+      },
+      "Těhotenství / po porodu": {
+        "count": 15,
+        "status": "WARN"
+      },
+      "Dlouhodobé onemocnění / diagnóza": {
+        "count": 12,
+        "status": "PASS"
+      },
+      "Jiné potíže": {
+        "count": 11,
+        "status": "PASS"
+      }
+    },
+    "languageCoverage": {
+      "en": {
+        "required": 25,
+        "actual": 46,
+        "status": "PASS"
+      },
+      "uk": {
+        "required": 10,
+        "actual": 17,
+        "status": "PASS"
+      },
+      "de": {
+        "required": 8,
+        "actual": 31,
+        "status": "PASS"
+      }
+    },
+    "priceDistribution": {
+      "low": {
+        "expected": 30,
+        "actual": 30,
+        "status": "PASS"
+      },
+      "medium": {
+        "expected": 50,
+        "actual": 45,
+        "status": "PASS"
+      },
+      "high": {
+        "expected": 20,
+        "actual": 25,
+        "status": "PASS"
+      }
+    },
+    "ageAccessibility": {
+      "children": {
+        "required": 20,
+        "actual": 28,
+        "status": "PASS"
+      },
+      "seniors": {
+        "required": 25,
+        "actual": 25,
+        "status": "PASS"
+      },
+      "accessibility": {
+        "required": 25,
+        "actual": 33,
+        "status": "PASS"
+      }
+    }
+  },
+  "testScenarios": {
+    "Praha + Bolest zad": {
+      "count": 9,
+      "status": "PASS"
+    },
+    "Brno + Koleno + Sport": {
+      "count": 1,
+      "status": "WARN"
+    },
+    "Ostrava + Online + AJ": {
+      "count": 1,
+      "status": "WARN"
+    },
+    "Plzeň + Těhotenství": {
+      "count": 1,
+      "status": "WARN"
+    },
+    "Olomouc + Rehabilitace": {
+      "count": 3,
+      "status": "PASS"
+    },
+    "Praha + DNS + Nízká cena": {
+      "count": 12,
+      "status": "PASS"
+    },
+    "Brno + Děti + Vojta": {
+      "count": 1,
+      "status": "WARN"
+    },
+    "Ostrava + Senioři + Bezbariérový": {
+      "count": 5,
+      "status": "PASS"
+    },
+    "Praha + Ukrajinština": {
+      "count": 12,
+      "status": "PASS"
+    },
+    "Brno + Němčina + Vysoká cena": {
+      "count": 1,
+      "status": "WARN"
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "schemaValidation": {
+    "errors": 19,
+    "warnings": 0,
+    "status": "FAIL"
+  }
+}

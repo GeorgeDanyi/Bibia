@@ -1,0 +1,55 @@
+<svg viewBox="0 0 600 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="arcGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgb(16 185 129 / 0.5)" />
+      <stop offset="100%" stop-color="rgb(6 182 212 / 0.3)" />
+    </linearGradient>
+    <linearGradient id="arcGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgb(6 182 212 / 0.4)" />
+      <stop offset="100%" stop-color="rgb(16 185 129 / 0.2)" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main therapeutic arc -->
+  <path 
+    d="M80 280 Q300 120 520 280" 
+    stroke="url(#arcGradient1)" 
+    stroke-width="2" 
+    stroke-linecap="round" 
+    fill="none"
+  />
+  
+  <!-- Secondary support arc -->
+  <path 
+    d="M120 300 Q300 160 480 300" 
+    stroke="url(#arcGradient2)" 
+    stroke-width="1.5" 
+    stroke-linecap="round" 
+    fill="none"
+  />
+  
+  <!-- Dotted guide path -->
+  <path 
+    d="M100 320 Q300 200 500 320" 
+    stroke="rgb(16 185 129 / 0.5)" 
+    stroke-width="1" 
+    stroke-dasharray="2 6" 
+    stroke-linecap="round" 
+    fill="none"
+  />
+  
+  <!-- Cross marks for therapeutic points -->
+  <g opacity="0.35">
+    <!-- Cross mark 1 -->
+    <line x1="180" y1="250" x2="192" y2="262" stroke="rgb(16 185 129)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="192" y1="250" x2="180" y2="262" stroke="rgb(16 185 129)" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Cross mark 2 -->
+    <line x1="300" y1="200" x2="312" y2="212" stroke="rgb(6 182 212)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="312" y1="200" x2="300" y2="212" stroke="rgb(6 182 212)" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Cross mark 3 -->
+    <line x1="420" y1="240" x2="432" y2="252" stroke="rgb(16 185 129)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="432" y1="240" x2="420" y2="252" stroke="rgb(16 185 129)" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

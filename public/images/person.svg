@@ -1,0 +1,30 @@
+<svg width="500" height="600" viewBox="0 0 500 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="250" cy="300" r="200" fill="#E8F5E8"/>
+  
+  <!-- Person silhouette -->
+  <ellipse cx="250" cy="200" rx="60" ry="80" fill="#4A90E2"/>
+  
+  <!-- Phone -->
+  <rect x="200" y="150" width="30" height="50" rx="5" fill="#2C3E50"/>
+  <rect x="205" y="155" width="20" height="40" rx="2" fill="#34495E"/>
+  
+  <!-- Happy face -->
+  <circle cx="240" cy="180" r="3" fill="#2C3E50"/>
+  <circle cx="260" cy="180" r="3" fill="#2C3E50"/>
+  <path d="M235 195 Q250 210 265 195" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="250" cy="350" rx="80" ry="120" fill="#5BA3F5"/>
+  
+  <!-- Arms -->
+  <ellipse cx="180" cy="320" rx="25" ry="60" fill="#4A90E2" transform="rotate(-20 180 320)"/>
+  <ellipse cx="320" cy="320" rx="25" ry="60" fill="#4A90E2" transform="rotate(20 320 320)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="220" cy="480" rx="30" ry="80" fill="#2C3E50"/>
+  <ellipse cx="280" cy="480" rx="30" ry="80" fill="#2C3E50"/>
+  
+  <!-- Text -->
+  <text x="250" y="550" font-family="Arial" font-size="20" fill="#2C3E50" text-anchor="middle">Happy Person with Phone</text>
+</svg>

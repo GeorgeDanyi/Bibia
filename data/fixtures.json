@@ -1,0 +1,438 @@
+[
+  {
+    "id": "ostrava_mgr_a",
+    "fullName": "Mgr. A",
+    "city": "Ostrava",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "languages": [
+      "cs",
+      "ru"
+    ],
+    "yearsExperience": 6,
+    "pricePerSession": 800,
+    "latitude": 49.845,
+    "longitude": 18.2,
+    "clinicLat": 49.845,
+    "clinicLon": 18.2,
+    "homeVisitRadiusKm": 6,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "nextAvailableDays": 3,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "availability": [],
+    "specialties": [
+      "backneck",
+      "bechterev"
+    ],
+    "diagnoses": [
+      "backneck",
+      "bechterev"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti"
+    ],
+    "rating": {
+      "average": 4.1,
+      "count": 81
+    },
+    "reviewsCount": 81,
+    "bio": "Specializuji se na backneck, bechterev. Mám bohaté zkušenosti s prací s různými skupinami pacientů.",
+    "clinicName": "Fyzioterapie A",
+    "address": "Ostrava 2, 82",
+    "phone": "+420 781 581 581",
+    "email": ".a@example.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "tags": [
+      "backneck",
+      "bechterev"
+    ],
+    "diagnosisTags": [
+      "backneck",
+      "bechterev"
+    ],
+    "experienceTags": [
+      "backneck",
+      "bechterev"
+    ],
+    "isFixture": true,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    }
+  },
+  {
+    "id": "ostrava_bc_b",
+    "fullName": "Bc. B",
+    "city": "Ostrava",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "yearsExperience": 13,
+    "pricePerSession": 800,
+    "latitude": 49.78,
+    "longitude": 18.33,
+    "clinicLat": 49.78,
+    "clinicLon": 18.33,
+    "homeVisitRadiusKm": 0,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "nextAvailableDays": 1,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "availability": [],
+    "specialties": [
+      "backneck"
+    ],
+    "diagnoses": [
+      "backneck"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie",
+      "Manuální terapie"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti",
+      "senioři"
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 103
+    },
+    "reviewsCount": 103,
+    "bio": "Specializuji se na backneck. Mám bohaté zkušenosti s prací s různými skupinami pacientů.",
+    "clinicName": "Fyzioterapie B",
+    "address": "Ostrava 4, 54",
+    "phone": "+420 653 453 453",
+    "email": ".b@example.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV",
+      "OZP"
+    ],
+    "isVerified": true,
+    "tags": [
+      "backneck"
+    ],
+    "diagnosisTags": [
+      "backneck"
+    ],
+    "experienceTags": [
+      "backneck"
+    ],
+    "isFixture": true,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    }
+  },
+  {
+    "id": "opava_mgr_c",
+    "fullName": "Mgr. C",
+    "city": "Opava",
+    "regions": [
+      "Moravskoslezský"
+    ],
+    "languages": [
+      "cs"
+    ],
+    "yearsExperience": 15,
+    "pricePerSession": 800,
+    "latitude": 49.92,
+    "longitude": 18.15,
+    "clinicLat": 49.92,
+    "clinicLon": 18.15,
+    "homeVisitRadiusKm": 15,
+    "practiceType": "clinic",
+    "acceptingNew": false,
+    "nextAvailableDays": 12,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "availability": [],
+    "specialties": [
+      "sports"
+    ],
+    "diagnoses": [
+      "sports"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti"
+    ],
+    "rating": {
+      "average": 4,
+      "count": 150
+    },
+    "reviewsCount": 150,
+    "bio": "Specializuji se na sports. Mám bohaté zkušenosti s prací s různými skupinami pacientů.",
+    "clinicName": "Fyzioterapie C",
+    "address": "Opava 1, 51",
+    "phone": "+420 550 350 350",
+    "email": ".c@example.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "tags": [
+      "sports"
+    ],
+    "diagnosisTags": [
+      "sports"
+    ],
+    "experienceTags": [
+      "sports"
+    ],
+    "isFixture": true,
+    "priceRange": {
+      "minCZK": 800,
+      "maxCZK": 1200
+    }
+  },
+  {
+    "id": "prague_mgr_d",
+    "fullName": "Mgr. D",
+    "city": "Praha",
+    "regions": [
+      "Praha",
+      "Středočeský"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "yearsExperience": 5,
+    "pricePerSession": 1000,
+    "latitude": 50.1,
+    "longitude": 14.3,
+    "clinicLat": 50.1,
+    "clinicLon": 14.3,
+    "homeVisitRadiusKm": 5,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "nextAvailableDays": 5,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": true
+    },
+    "availability": [],
+    "specialties": [
+      "backneck"
+    ],
+    "diagnoses": [
+      "backneck"
+    ],
+    "modalities": [
+      "DNS"
+    ],
+    "worksWith": [
+      "sportovci"
+    ],
+    "rating": {
+      "average": 4,
+      "count": 110
+    },
+    "reviewsCount": 110,
+    "bio": "Specializuji se na backneck. Mám bohaté zkušenosti s prací s různými skupinami pacientů.",
+    "clinicName": "Fyzioterapie D",
+    "address": "Praha 1, 61",
+    "phone": "+420 660 460 460",
+    "email": ".d@example.cz",
+    "insuranceAccepted": [
+      "VZP"
+    ],
+    "isVerified": false,
+    "tags": [
+      "backneck"
+    ],
+    "diagnosisTags": [
+      "backneck"
+    ],
+    "experienceTags": [
+      "backneck"
+    ],
+    "isFixture": true,
+    "priceRange": {
+      "minCZK": 1000,
+      "maxCZK": 1500
+    }
+  },
+  {
+    "id": "prague_bc_e",
+    "fullName": "Bc. E",
+    "city": "Praha",
+    "regions": [
+      "Praha",
+      "Středočeský"
+    ],
+    "languages": [
+      "cs"
+    ],
+    "yearsExperience": 12,
+    "pricePerSession": 1000,
+    "latitude": 50.02,
+    "longitude": 14.52,
+    "clinicLat": 50.02,
+    "clinicLon": 14.52,
+    "homeVisitRadiusKm": 0,
+    "practiceType": "online",
+    "acceptingNew": true,
+    "nextAvailableDays": 2,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": true,
+      "weekend": false
+    },
+    "availability": [],
+    "specialties": [
+      "bechterev"
+    ],
+    "diagnoses": [
+      "bechterev"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti"
+    ],
+    "rating": {
+      "average": 4.2,
+      "count": 132
+    },
+    "reviewsCount": 132,
+    "bio": "Specializuji se na bechterev. Mám bohaté zkušenosti s prací s různými skupinami pacientů.",
+    "clinicName": "Fyzioterapie E",
+    "address": "Praha 3, 33",
+    "phone": "+420 532 332 332",
+    "email": ".e@example.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": false,
+    "tags": [
+      "bechterev"
+    ],
+    "diagnosisTags": [
+      "bechterev"
+    ],
+    "experienceTags": [
+      "bechterev"
+    ],
+    "isFixture": true,
+    "priceRange": {
+      "minCZK": 1000,
+      "maxCZK": 1500
+    }
+  },
+  {
+    "id": "brno_mgr_f",
+    "fullName": "Mgr. F",
+    "city": "Brno",
+    "regions": [
+      "Jihomoravský"
+    ],
+    "languages": [
+      "cs"
+    ],
+    "yearsExperience": 6,
+    "pricePerSession": 900,
+    "latitude": 49.26,
+    "longitude": 16.55,
+    "clinicLat": 49.26,
+    "clinicLon": 16.55,
+    "homeVisitRadiusKm": 6,
+    "practiceType": "clinic",
+    "acceptingNew": true,
+    "nextAvailableDays": 7,
+    "workingHours": {
+      "morning": true,
+      "midday": true,
+      "evening": false,
+      "weekend": false
+    },
+    "availability": [],
+    "specialties": [
+      "backneck"
+    ],
+    "diagnoses": [
+      "backneck"
+    ],
+    "modalities": [
+      "DNS",
+      "McKenzie"
+    ],
+    "worksWith": [
+      "sportovci",
+      "děti"
+    ],
+    "rating": {
+      "average": 4.1,
+      "count": 51
+    },
+    "reviewsCount": 51,
+    "bio": "Specializuji se na backneck. Mám bohaté zkušenosti s prací s různými skupinami pacientů.",
+    "clinicName": "Fyzioterapie F",
+    "address": "Brno 2, 52",
+    "phone": "+420 451 251 251",
+    "email": ".f@example.cz",
+    "insuranceAccepted": [
+      "VZP",
+      "ZPMV"
+    ],
+    "isVerified": true,
+    "tags": [
+      "backneck"
+    ],
+    "diagnosisTags": [
+      "backneck"
+    ],
+    "experienceTags": [
+      "backneck"
+    ],
+    "isFixture": true,
+    "priceRange": {
+      "minCZK": 900,
+      "maxCZK": 1300
+    }
+  }
+]

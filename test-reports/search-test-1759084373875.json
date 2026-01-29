@@ -1,0 +1,76 @@
+{
+  "environment": "development",
+  "dataset": "/data/fake-therapists-complete.json",
+  "datasetSize": 100,
+  "testedTherapists": [
+    {
+      "id": "t001",
+      "name": "Zuzana Beneš",
+      "city": "Praha",
+      "specialization": "Osteoporóza"
+    },
+    {
+      "id": "t002",
+      "name": "MUDr. Petr Svoboda",
+      "city": "Brno",
+      "specialization": "MS"
+    },
+    {
+      "id": "t003",
+      "name": "Bc. Marie Kratochvílová",
+      "city": "Ostrava",
+      "specialization": "Sport injury"
+    }
+  ],
+  "testResults": [
+    {
+      "testCase": "TC1 — City Match",
+      "status": "PASS",
+      "details": "Found 2 results, including Praha therapists",
+      "duration": 296
+    },
+    {
+      "testCase": "TC2 — Specialization Match",
+      "status": "FAIL",
+      "details": "No therapists with Osteoporóza specialization found",
+      "duration": 9
+    },
+    {
+      "testCase": "TC3 — Combined Filters",
+      "status": "FAIL",
+      "details": "No results returned for combined filter search",
+      "duration": 7
+    },
+    {
+      "testCase": "TC4 — Name Lookup",
+      "status": "FAIL",
+      "details": "Exact name match not found in results",
+      "duration": 14
+    },
+    {
+      "testCase": "TC5 — Negative Test",
+      "status": "FAIL",
+      "details": "Unexpectedly returned 2 results for impossible criteria",
+      "duration": 14
+    },
+    {
+      "testCase": "Network Request Validation",
+      "status": "PASS",
+      "details": "Network request successful with proper response structure",
+      "duration": 7
+    },
+    {
+      "testCase": "Profile Data Matching",
+      "status": "FAIL",
+      "details": "Missing required fields: name",
+      "duration": 10
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 2,
+    "failed": 5,
+    "passRate": 29
+  },
+  "timestamp": "2025-09-28T18:32:53.515Z"
+}
