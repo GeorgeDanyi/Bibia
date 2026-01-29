@@ -1,4 +1,4 @@
-import { setLocation, setDiagnoses, setTimePreference, setAnswer } from './answers';
+import { setAnswer } from './answers';
 
 // Callback types for questionnaire components
 export interface QuestionnaireCallbacks {
@@ -12,9 +12,15 @@ export interface QuestionnaireCallbacks {
 
 // Create questionnaire callbacks
 export const createQuestionnaireCallbacks = (): QuestionnaireCallbacks => ({
-  onSelectCity: (city, coords) => setLocation(city, coords),
-  onSubmitDiagnoses: (ids) => setDiagnoses(ids),
-  onPickTime: (day, slot) => setTimePreference(day, slot),
+  onSelectCity: (city, coords) => {
+    setAnswer("city", city);
+    setAnswer("coords", coords);
+  },
+  onSubmitDiagnoses: (ids) => setAnswer("diagnosis", ids),
+  onPickTime: (day, slot) => {
+    setAnswer("day", day);
+    setAnswer("timeSlot", slot);
+  },
   onChangeGender: (gender) => setAnswer("therapistGender", gender),
   onChangeMeetingType: (type) => setAnswer("meetingType", type),
   onChangeRadius: (radius) => setAnswer("radiusKm", radius),
