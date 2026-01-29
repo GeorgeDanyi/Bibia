@@ -3,3 +3,6 @@ node_modules
 .env*
 *.log
 .DS_Store
+
+# ignore npm lockfile (platform-specific for Next SWC)
+package-lock.json
