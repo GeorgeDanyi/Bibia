@@ -215,7 +215,7 @@ export function findMatchingTherapists(answers: QuestionnaireAnswers): Therapist
   const criteria = answersToCriteria(answers);
   const matches: TherapistMatch[] = [];
 
-  for (const therapist of MOCK_THERAPISTS) {
+  for (const therapist of MOCK_THERAPISTS as Therapist[]) {
     const { score, reasons } = scoreTherapist(therapist, criteria);
     
     if (score > 0) {
