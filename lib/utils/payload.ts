@@ -14,6 +14,14 @@ export const createPayloadFromAnswers = (): Payload => {
     return "any";
   };
   
+  // Map meetingType values to Payload format
+  const mapMeetingType = (type?: string): "clinic" | "home_visit" | "online" | undefined => {
+    if (!type || type === 'any') return undefined;
+    if (type === 'home') return "home_visit";
+    if (type === 'clinic' || type === 'online') return type;
+    return undefined;
+  };
+  
   return {
     city: answers.city,
     coords: answers.coords ?? null,
@@ -23,7 +31,7 @@ export const createPayloadFromAnswers = (): Payload => {
       timeSlot: answers.timeSlot ?? "" 
     },
     genderPref: mapGenderPref(answers.therapistGender),
-    meetingType: answers.meetingType ?? "clinic",
+    meetingType: mapMeetingType(answers.meetingType),
     radiusKm: answers.radiusKm ?? 30,
     language: answers.language ?? "cestina",
   };
