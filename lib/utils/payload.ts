@@ -8,7 +8,7 @@ export const createPayloadFromAnswers = (): Payload => {
   return {
     city: answers.city,
     coords: answers.coords ?? null,
-    diagnosisIds: answers.diagnosisIds ?? [],
+    diagnosisIds: answers.diagnosis ?? [],
     when: { 
       day: answers.day ?? "", 
       timeSlot: answers.timeSlot ?? "" 
