@@ -579,7 +579,13 @@ export function normalizeTherapist(input: any): ValidationResult {
     }
 
     if ((locations as any).length === 0 && meeting_modes.includes('clinic')) {
-      errors.push(`locations: at least 1 valid CZ coordinate required for clinic (${id})`)
+      errors.push(
+        makeError(
+          'locations',
+          'at least 1 valid CZ coordinate required for clinic',
+          { id, locations }
+        )
+      )
     }
   }
 
