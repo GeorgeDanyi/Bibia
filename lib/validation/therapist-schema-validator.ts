@@ -192,7 +192,7 @@ export class CzechTherapistValidator {
     
     // Check if regions match city
     const expectedRegion = this.getExpectedRegion(therapist.city)
-    if (expectedRegion && !therapist.regions.includes(expectedRegion)) {
+    if (expectedRegion && !therapist.regions.includes(expectedRegion as any)) {
       warnings.push(`City ${therapist.city} should be in region ${expectedRegion}`)
     }
     
