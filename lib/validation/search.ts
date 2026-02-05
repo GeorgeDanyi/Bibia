@@ -113,9 +113,9 @@ export function sanitizeSearchInput(input: any): any {
 
   if (sanitized.diagnosisTags && Array.isArray(sanitized.diagnosisTags)) {
     sanitized.diagnosisTags = sanitized.diagnosisTags
-      .filter(t => typeof t === 'string')
-      .map(t => t.trim().slice(0, 50))
-      .filter(t => t.length > 0)
+      .filter((t: unknown): t is string => typeof t === 'string')
+      .map((t: string) => t.trim().slice(0, 50))
+      .filter((t: string) => t.length > 0)
   }
 
   // Sanitize numbers
