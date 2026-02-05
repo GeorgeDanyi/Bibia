@@ -283,7 +283,7 @@ class TelemetryLogger {
       console.log(`${prefix} ${event.eventType}:`, {
         sessionId: 'sessionId' in event ? event.sessionId : undefined,
         queryId: 'queryId' in event ? event.queryId : undefined,
-        data: event.data || event.details
+        data: 'data' in event ? event.data : event.details
       })
     }
   }
