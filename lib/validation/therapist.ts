@@ -1,5 +1,6 @@
 import { z } from "zod"
 import { canonicalizeCity } from "@/lib/geo/cityIndex"
+import { CZ_CITIES } from "@/data/cz_cities"
 import { validateCoordinatePair, normalizeLocations } from "@/lib/validation/coordinates"
 import {
   type TherapistNormalized,
