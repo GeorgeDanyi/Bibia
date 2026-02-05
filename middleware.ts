@@ -1,6 +1,4 @@
 import { NextResponse, NextRequest } from 'next/server'
-import { NextAuthOptions } from 'next-auth'
-import { authOptions } from '@/app/api/auth/[...nextauth]/route'
 
 // Note: Middleware in Next.js 14 cannot be async
 // We'll use a simpler approach - let the page handle auth check
