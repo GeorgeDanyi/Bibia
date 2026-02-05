@@ -353,10 +353,10 @@ export class TherapistDataValidator {
       total: therapists.length,
       valid: validation.summary.valid,
       invalid: validation.summary.invalid,
-      warnings: validation.summary.warnings,
+      warningsCount: validation.summary.warnings,
       duplicates: duplicateCheck.duplicates.length,
       criticalIssues,
-      warnings: warnings,
+      warnings,
       recommendations,
       success: validation.success && duplicateCheck.duplicates.length === 0
     }
@@ -408,7 +408,7 @@ export interface ValidationReport {
   total: number
   valid: number
   invalid: number
-  warnings: number
+  warningsCount: number
   duplicates: number
   criticalIssues: string[]
   warnings: string[]
