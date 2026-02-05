@@ -157,9 +157,9 @@ export function sanitizeTherapistData(therapist: any): any {
   // Sanitize arrays
   if (Array.isArray(sanitized.languages)) {
     sanitized.languages = sanitized.languages
-      .filter(l => typeof l === 'string')
-      .map(l => l.trim().slice(0, 10))
-      .filter(l => l.length >= 2)
+      .filter((l: unknown): l is string => typeof l === 'string')
+      .map((l: string) => l.trim().slice(0, 10))
+      .filter((l: string) => l.length >= 2)
   }
 
   if (Array.isArray(sanitized.specialties)) {
