@@ -435,7 +435,7 @@ export function normalizeTherapist(input: any): ValidationResult {
       }
     }
     if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
-      errors.push('GEO_COORDS_MISSING')
+      errors.push(makeError(`locations[${i}].coords`, 'finite lat/lon within Czech bounds', { lat, lon }))
     }
     return { city, lat, lon, barrier_free }
   })
