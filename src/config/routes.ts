@@ -17,11 +17,11 @@ export function getRoute(route: keyof typeof ROUTES): string {
   return routeValue
 }
 
-// Helper function for dynamic routes
-export function getDynamicRoute(route: keyof typeof ROUTES, ...params: any[]): string {
+// Helper function for dynamic routes (currently supports single-parameter routes)
+export function getDynamicRoute(route: keyof typeof ROUTES, param: string): string {
   const routeValue = ROUTES[route]
   if (typeof routeValue === 'function') {
-    return routeValue(...params)
+    return routeValue(param)
   }
   return routeValue
 }
