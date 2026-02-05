@@ -106,9 +106,9 @@ export function sanitizeSearchInput(input: any): any {
 
   if (sanitized.problems && Array.isArray(sanitized.problems)) {
     sanitized.problems = sanitized.problems
-      .filter(p => typeof p === 'string')
-      .map(p => p.trim().slice(0, 50))
-      .filter(p => p.length > 0)
+      .filter((p: unknown): p is string => typeof p === 'string')
+      .map((p: string) => p.trim().slice(0, 50))
+      .filter((p: string) => p.length > 0)
   }
 
   if (sanitized.diagnosisTags && Array.isArray(sanitized.diagnosisTags)) {
