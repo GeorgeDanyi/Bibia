@@ -562,7 +562,7 @@ export function normalizeTherapist(input: any): ValidationResult {
 
   // Hard coordinate rule per request
   if (hasInPerson) {
-    const normalized: Array<{ lat: number; lon: number; [key: string]: any }> = normalizeLocations(locations as any[])
+    const normalized = (normalizeLocations as any)(locations as any[]) as Array<{ lat: number; lon: number; [key: string]: any }>
     // replace computed locations with normalized ones
     (locations as any) = normalized
 
