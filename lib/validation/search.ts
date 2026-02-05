@@ -164,9 +164,9 @@ export function sanitizeTherapistData(therapist: any): any {
 
   if (Array.isArray(sanitized.specialties)) {
     sanitized.specialties = sanitized.specialties
-      .filter(s => typeof s === 'string')
-      .map(s => s.trim().slice(0, 50))
-      .filter(s => s.length > 0)
+      .filter((s: unknown): s is string => typeof s === 'string')
+      .map((s: string) => s.trim().slice(0, 50))
+      .filter((s: string) => s.length > 0)
   }
 
   // Sanitize coordinates
