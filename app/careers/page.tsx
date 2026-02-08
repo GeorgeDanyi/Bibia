@@ -16,7 +16,7 @@ export default function CareersPage() {
             Kariéra
           </h1>
           <p className="text-seafoam-700 mb-6">
-            Stránka "Kariéra" je momentálně v přípravě. Pokud máte zájem o spolupráci, 
+            Stránka &quot;Kariéra&quot; je momentálně v přípravě. Pokud máte zájem o spolupráci, 
             neváhejte nás kontaktovat.
           </p>
           <Link href="/contact">

@@ -16,7 +16,7 @@ export default function AboutPage() {
             O nás
           </h1>
           <p className="text-seafoam-700 mb-6">
-            Stránka "O nás" je momentálně v přípravě. Informace o naší společnosti 
+            Stránka &quot;O nás&quot; je momentálně v přípravě. Informace o naší společnosti 
             brzy doplníme.
           </p>
           <Link href="/">
