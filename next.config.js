@@ -7,6 +7,16 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      // Exclude pg-native from server-side bundle (not compatible with Vercel serverless)
+      config.externals = config.externals || []
+      config.externals.push({
+        'pg-native': 'commonjs pg-native',
+      })
+    }
+    return config
+  },
   async redirects() {
     return [
       {
