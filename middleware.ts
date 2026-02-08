@@ -1,8 +1,9 @@
 import { NextResponse, NextRequest } from 'next/server'
-import { auth } from '@/lib/auth'
 
 // Legacy redirects middleware
-function handleRedirects(request: NextRequest) {
+// Note: Auth checks are handled in page components (app/dashboard/page.tsx, etc.)
+// to avoid loading Node.js dependencies (crypto, pg, etc.) in Edge runtime
+export default function middleware(request: NextRequest) {
   const url = request.nextUrl.clone()
   const from = url.pathname + (url.search || '')
 
@@ -26,47 +27,8 @@ function handleRedirects(request: NextRequest) {
     }
   }
 
-  return null
-}
-
-export default auth((req) => {
-  const { pathname } = req.nextUrl
-  const session = req.auth
-
-  // Handle legacy redirects first
-  const redirectResponse = handleRedirects(req)
-  if (redirectResponse) {
-    return redirectResponse
-  }
-
-  // Protect /dashboard - requires authentication
-  if (pathname.startsWith('/dashboard')) {
-    if (!session) {
-      const loginUrl = new URL('/login', req.url)
-      loginUrl.searchParams.set('next', pathname)
-      return NextResponse.redirect(loginUrl)
-    }
-  }
-
-  // Protect /admin/* - requires authentication AND admin role
-  if (pathname.startsWith('/admin')) {
-    if (!session) {
-      const loginUrl = new URL('/login', req.url)
-      loginUrl.searchParams.set('next', pathname)
-      return NextResponse.redirect(loginUrl)
-    }
-
-    // Check admin role
-    const userRole = (session.user as any)?.role || 'patient'
-    if (userRole !== 'admin') {
-      const dashboardUrl = new URL('/dashboard', req.url)
-      dashboardUrl.searchParams.set('error', 'unauthorized')
-      return NextResponse.redirect(dashboardUrl)
-    }
-  }
-
   return NextResponse.next()
-})
+}
 
 export const config = {
   matcher: [
