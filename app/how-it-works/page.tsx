@@ -16,7 +16,7 @@ export default function HowItWorksPage() {
             Jak to funguje
           </h1>
           <p className="text-seafoam-700 mb-6">
-            Stránka "Jak to funguje" je momentálně v přípravě. Informace o tom, 
+            Stránka &quot;Jak to funguje&quot; je momentálně v přípravě. Informace o tom, 
             jak naše služby fungují, brzy doplníme.
           </p>
           <Link href="/questionnaire">

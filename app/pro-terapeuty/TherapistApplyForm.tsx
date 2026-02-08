@@ -126,7 +126,7 @@ export function TherapistApplyForm() {
     } catch (error: any) {
       setSubmitStatus("error")
       if (error instanceof TypeError || error.message?.includes("fetch")) {
-        setErrors({ general: "Nepodařilo se spojit se serverem. Zkontrolujte připojení k internetu a zkuste to znovu." })
+        setErrors({ general: "Nepodařilo se spojit se serverem. Zkontrolujte, že aplikace běží." })
       } else {
         setErrors({ general: error.message || "Nepodařilo se odeslat přihlášku. Zkuste to prosím znovu." })
       }

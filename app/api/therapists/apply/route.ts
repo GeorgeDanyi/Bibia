@@ -175,6 +175,22 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true }, { status: 200 })
   } catch (error) {
     console.error("Error in /api/therapists/apply:", error)
+    // Check if it's a database error
+    const isDbError = error instanceof Error && (
+      error.message?.includes("database") ||
+      error.message?.includes("connection") ||
+      error.message?.includes("query") ||
+      error.message?.includes("ECONNREFUSED") ||
+      error.message?.includes("timeout")
+    )
+    
+    if (isDbError) {
+      return NextResponse.json(
+        { error: "Došlo k chybě na serveru. Zkuste to prosím později." },
+        { status: 500 }
+      )
+    }
+    
     return NextResponse.json(
       { error: "Došlo k chybě při odesílání přihlášky. Zkuste to prosím znovu." },
       { status: 500 }
