@@ -2,7 +2,6 @@ import NextAuth from "next-auth"
 import GoogleProvider from "next-auth/providers/google"
 import CredentialsProvider from "next-auth/providers/credentials"
 import type { NextAuthConfig } from "next-auth"
-import { compare } from "bcryptjs"
 import { findUserByEmail, createUser, findAccountByProvider, linkAccount } from "@/lib/database/auth"
 
 const authConfig = {
@@ -31,6 +30,8 @@ const authConfig = {
           return null
         }
 
+        // Dynamically import bcryptjs to avoid loading it in Edge runtime
+        const { compare } = await import("bcryptjs")
         const isValid = await compare(password, user.passwordHash)
         if (!isValid) {
           return null
