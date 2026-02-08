@@ -7,13 +7,15 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  // Exclude pg-native from server components (not compatible with Vercel serverless or Edge runtime)
+  serverComponentsExternalPackages: ['pg-native'],
   webpack: (config, { isServer }) => {
-    if (isServer) {
-      // Exclude pg-native from server-side bundle (not compatible with Vercel serverless)
-      config.externals = config.externals || []
-      config.externals.push({
-        'pg-native': 'commonjs pg-native',
-      })
+    // Exclude pg-native from all bundles (not compatible with Vercel serverless or Edge runtime)
+    config.externals = config.externals || []
+    if (Array.isArray(config.externals)) {
+      config.externals.push('pg-native')
+    } else {
+      config.externals = [config.externals, 'pg-native']
     }
     return config
   },
