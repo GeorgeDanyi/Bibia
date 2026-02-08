@@ -30,6 +30,7 @@ export function RegisterForm({ onSuccess, redirectUrl }: RegisterFormProps) {
   const router = useRouter()
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+  const [role, setRole] = useState<'patient' | 'therapist'>('patient')
   const [showPassword, setShowPassword] = useState(false)
   const [acceptTerms, setAcceptTerms] = useState(false)
   const [errors, setErrors] = useState<FormErrors>({})
@@ -102,7 +103,7 @@ export function RegisterForm({ onSuccess, redirectUrl }: RegisterFormProps) {
       const response = await fetch("/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email, password, role }),
       })
 
       if (!response.ok) {
@@ -168,6 +169,39 @@ export function RegisterForm({ onSuccess, redirectUrl }: RegisterFormProps) {
               {errors.email}
             </p>
           )}
+        </div>
+
+        {/* Role selection */}
+        <div className="space-y-1.5">
+          <label className="text-sm font-medium text-seafoam-900">
+            Jsem
+          </label>
+          <div className="flex gap-4">
+            <label className="flex items-center gap-2 cursor-pointer">
+              <input
+                type="radio"
+                name="role"
+                value="patient"
+                checked={role === 'patient'}
+                onChange={(e) => setRole(e.target.value as 'patient' | 'therapist')}
+                className="h-4 w-4 text-seafoam-600 focus:ring-2 focus:ring-seafoam-400/20 border-seafoam-300"
+                disabled={isSubmitting}
+              />
+              <span className="text-sm text-seafoam-700">Pacient</span>
+            </label>
+            <label className="flex items-center gap-2 cursor-pointer">
+              <input
+                type="radio"
+                name="role"
+                value="therapist"
+                checked={role === 'therapist'}
+                onChange={(e) => setRole(e.target.value as 'patient' | 'therapist')}
+                className="h-4 w-4 text-seafoam-600 focus:ring-2 focus:ring-seafoam-400/20 border-seafoam-300"
+                disabled={isSubmitting}
+              />
+              <span className="text-sm text-seafoam-700">Fyzioterapeut</span>
+            </label>
+          </div>
         </div>
 
         {/* Password input with strength checklist */}

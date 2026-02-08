@@ -1,34 +1,9 @@
 /**
  * Database functions for authentication
- * 
- * Note: This assumes you have a database connection pool.
- * Replace the db.query calls with your actual database client.
+ * Uses PostgreSQL via @/lib/db
  */
 
-import { hash, compare } from 'bcryptjs'
-
-// TODO: Replace with your actual database client
-// Example: import { db } from './pool'
-// For now, this is a placeholder interface
-interface DatabaseClient {
-  query: (text: string, params?: any[]) => Promise<{ rows: any[] }>
-}
-
-// This should be replaced with your actual DB client
-let db: DatabaseClient
-
-// Initialize DB client (call this from your DB setup)
-export function initAuthDb(client: DatabaseClient) {
-  db = client
-}
-
-// Helper to get DB client (throws if not initialized)
-function getDb(): DatabaseClient {
-  if (!db) {
-    throw new Error('Database client not initialized. Call initAuthDb() first.')
-  }
-  return db
-}
+import { query } from '@/lib/db'
 
 export interface User {
   id: string
@@ -36,7 +11,7 @@ export interface User {
   emailVerifiedAt: Date | null
   name: string | null
   image: string | null
-  role: 'user' | 'admin'
+  role: 'patient' | 'therapist' | 'admin'
   passwordHash: string | null
   createdAt: Date
   updatedAt: Date
@@ -60,7 +35,7 @@ export interface Account {
  * Find user by email
  */
 export async function findUserByEmail(email: string): Promise<User | null> {
-  const result = await getDb().query(
+  const result = await query(
     'SELECT * FROM users WHERE email = $1',
     [email.toLowerCase()]
   )
@@ -87,7 +62,7 @@ export async function findUserByEmail(email: string): Promise<User | null> {
  * Find user by ID
  */
 export async function findUserById(id: string): Promise<User | null> {
-  const result = await getDb().query(
+  const result = await query(
     'SELECT * FROM users WHERE id = $1',
     [id]
   )
@@ -119,10 +94,11 @@ export async function createUser(data: {
   image?: string | null
   emailVerifiedAt?: Date | null
   passwordHash?: string | null
+  role?: 'patient' | 'therapist' | 'admin'
 }): Promise<User> {
-  const result = await getDb().query(
-    `INSERT INTO users (email, name, image, email_verified_at, password_hash) 
-     VALUES ($1, $2, $3, $4, $5) 
+  const result = await query(
+    `INSERT INTO users (email, name, image, email_verified_at, password_hash, role) 
+     VALUES ($1, $2, $3, $4, $5, $6) 
      RETURNING *`,
     [
       data.email.toLowerCase(),
@@ -130,6 +106,7 @@ export async function createUser(data: {
       data.image || null,
       data.emailVerifiedAt || null,
       data.passwordHash || null,
+      data.role || 'patient',
     ]
   )
   
@@ -151,7 +128,7 @@ export async function createUser(data: {
  * Update user email verification
  */
 export async function verifyUserEmail(userId: string): Promise<void> {
-  await getDb().query(
+  await query(
     'UPDATE users SET email_verified_at = NOW() WHERE id = $1',
     [userId]
   )
@@ -164,7 +141,7 @@ export async function findAccountByProvider(
   provider: string,
   providerAccountId: string
 ): Promise<Account | null> {
-  const result = await getDb().query(
+  const result = await query(
     'SELECT * FROM accounts WHERE provider = $1 AND provider_account_id = $2',
     [provider, providerAccountId]
   )
@@ -203,7 +180,7 @@ export async function linkAccount(data: {
   scope?: string | null
   idToken?: string | null
 }): Promise<Account> {
-  const result = await getDb().query(
+  const result = await query(
     `INSERT INTO accounts (
       user_id, provider, provider_account_id, 
       access_token, refresh_token, expires_at, 

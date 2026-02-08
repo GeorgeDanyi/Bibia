@@ -48,16 +48,16 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-emerald-100 mb-4">Pro fyzioterapeuty</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/therapist-registration" className="text-emerald-50/80 hover:text-white transition-colors">Registrace</Link>
+                <Link href="/pro-terapeuty" className="text-emerald-50/80 hover:text-white transition-colors">Registrace</Link>
               </li>
               <li>
-                <Link href="/therapist-dashboard" className="text-emerald-50/80 hover:text-white transition-colors">Přihlášení</Link>
+                <Link href="/login" className="text-emerald-50/80 hover:text-white transition-colors">Přihlášení</Link>
               </li>
               <li>
-                <Link href="/therapist-benefits" className="text-emerald-50/80 hover:text-white transition-colors">Výhody spolupráce</Link>
+                <Link href="/pro-terapeuty" className="text-emerald-50/80 hover:text-white transition-colors">Výhody spolupráce</Link>
               </li>
               <li>
-                <Link href="/therapist-support" className="text-emerald-50/80 hover:text-white transition-colors">Podpora</Link>
+                <Link href="/contact" className="text-emerald-50/80 hover:text-white transition-colors">Podpora</Link>
               </li>
             </ul>
           </div>
@@ -75,7 +75,7 @@ export function Footer() {
                 <a href="tel:+420123456789" className="text-emerald-50/80 hover:text-white transition-colors">+420 123 456 789</a>
               </li>
               <li>
-                <Link href="/support" className="text-emerald-50/80 hover:text-white transition-colors">Technická podpora</Link>
+                <Link href="/contact" className="text-emerald-50/80 hover:text-white transition-colors">Technická podpora</Link>
               </li>
             </ul>
           </div>

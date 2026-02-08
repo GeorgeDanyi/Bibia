@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ROUTES } from '@/src/config/routes'
 
+// Ensure not-found component is properly exported
+
 export default function NotFound() {
   // Only show in development
   if (process.env.NODE_ENV !== 'development') {

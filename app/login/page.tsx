@@ -41,8 +41,9 @@ function LoginContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [hasHistory, setHasHistory] = useState(false)
+  // Priority: next > callbackUrl > redirect
   const rawRedirect =
-    searchParams.get("callbackUrl") || searchParams.get("redirect") || null
+    searchParams.get("next") || searchParams.get("callbackUrl") || searchParams.get("redirect") || null
   const redirectUrl = sanitizeRedirectUrl(rawRedirect)
 
   // Check if there's meaningful browser history

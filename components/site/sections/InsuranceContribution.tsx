@@ -62,7 +62,7 @@ export function InsuranceContribution() {
               {/* Action buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-2">
                 <Link
-                  href="/prispevek"
+                  href="/insurance"
                   className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-emerald-400 to-teal-400 px-5 py-2.5 text-white font-semibold shadow-[0_10px_22px_rgba(20,184,166,0.28)] hover:shadow-[0_14px_30px_rgba(20,184,166,0.36)] hover:scale-[1.02] transition focus-visible:ring-2 focus-visible:ring-emerald-300 motion-reduce:hover:scale-100"
                 >
                   <span>Zjistit, jak získat</span>
@@ -72,7 +72,7 @@ export function InsuranceContribution() {
                 </Link>
                 
                 <Link
-                  href="/pojistovny"
+                  href="/insurance"
                   className="inline-flex items-center gap-2 rounded-full border border-white/20 text-white/90 px-5 py-2.5 hover:bg-white/8 transition focus-visible:ring-2 focus-visible:ring-emerald-300"
                 >
                   Ověřit pojišťovnu

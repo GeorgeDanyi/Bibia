@@ -8,6 +8,9 @@ export async function POST(request: Request) {
     const email = typeof body?.email === "string" ? body.email.trim().toLowerCase() : ""
     const password = typeof body?.password === "string" ? body.password : ""
     const name = typeof body?.name === "string" ? body.name.trim() || null : null
+    const role = typeof body?.role === "string" && ['patient', 'therapist'].includes(body.role)
+      ? body.role as 'patient' | 'therapist'
+      : 'patient' // Default to 'patient' if not provided or invalid
 
     if (!email || !password) {
       return NextResponse.json(
@@ -46,6 +49,7 @@ export async function POST(request: Request) {
       name,
       passwordHash,
       emailVerifiedAt: null,
+      role,
     })
 
     return NextResponse.json(

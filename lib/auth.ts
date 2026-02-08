@@ -4,7 +4,6 @@ import CredentialsProvider from "next-auth/providers/credentials"
 import type { NextAuthConfig } from "next-auth"
 import { compare } from "bcryptjs"
 import { findUserByEmail, createUser, findAccountByProvider, linkAccount } from "@/lib/database/auth"
-import "@/lib/database/auth-init"
 
 const authConfig = {
   providers: [
@@ -81,6 +80,7 @@ const authConfig = {
             name: user.name || null,
             image: user.image || null,
             emailVerifiedAt: new Date(),
+            role: 'patient', // Default role for OAuth users
           })
 
           await linkAccount({
@@ -102,15 +102,49 @@ const authConfig = {
       return true
     },
     async session({ session, token }) {
+      // Always set user.id from token.sub if available
       if (session.user && token.sub) {
         ;(session.user as any).id = token.sub
       }
+      // Always set user.role from token.role (fallback to 'patient')
+      ;(session.user as any).role = (token.role as string) || 'patient'
       return session
     },
     async jwt({ token, user }) {
-      if (user) {
-        ;(token as any).sub = user.id
+      // Get email from user (on login) or from token (on subsequent calls)
+      const email = user?.email || (token.email as string) || ''
+      const emailLower = email.toLowerCase()
+      
+      // Load admin emails from env (split, trim, lowercase, filter empty)
+      const adminEmails = process.env.ADMIN_EMAILS
+        ? process.env.ADMIN_EMAILS.split(',')
+            .map(e => e.trim().toLowerCase())
+            .filter(e => e.length > 0)
+        : []
+      
+      // Admin from ADMIN_EMAILS always has role='admin' (overrides DB)
+      if (adminEmails.includes(emailLower)) {
+        ;(token as any).role = 'admin'
+        return token
       }
+      
+      // Otherwise, read role from DB
+      if (email) {
+        try {
+          const { findUserByEmail } = await import('@/lib/database/auth')
+          const dbUser = await findUserByEmail(email)
+          if (dbUser) {
+            ;(token as any).role = dbUser.role || 'patient'
+            return token
+          }
+        } catch (error) {
+          console.error('Error fetching user role from DB:', error)
+        }
+      }
+      
+      // Fallback to 'patient' if user not found or error
+      ;(token as any).role = 'patient'
+      
       return token
     },
   },
