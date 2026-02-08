@@ -98,7 +98,7 @@ export default function QuestionnaireV1Client() {
   const [dxModalTemp, setDxModalTemp] = useState<Set<string>>(new Set())
 
   // Test mode toggle from query
-  const isTestMode = (searchParams.get('test') === '1')
+  const isTestMode = (searchParams?.get('test') === '1')
 
   // Normalize to stable snake_case without diacritics
   const normalizeKey = useCallback((label: string): string => {

@@ -595,16 +595,16 @@ export default function ResultsClient() {
   // Seed search from /results?… URL params (one-time on mount)
   useEffect(() => {
     if (!searchParams) return
-    const city = searchParams.get('city') || undefined
-    const practice = searchParams.get('practice') || undefined
-    const conditions = searchParams.get('conditions') || undefined
-    const hasDiagnosis = searchParams.get('hasDiagnosis') || undefined
-    const time = searchParams.get('time') || undefined
-    const day = searchParams.get('day') || undefined
-    const languages = searchParams.get('languages') || undefined
-    const insurance = searchParams.get('insurance') || undefined
-    const ageGroups = searchParams.get('ageGroups') || undefined
-    const therapistGender = searchParams.get('therapistGender') || undefined
+    const city = searchParams?.get('city') || undefined
+    const practice = searchParams?.get('practice') || undefined
+    const conditions = searchParams?.get('conditions') || undefined
+    const hasDiagnosis = searchParams?.get('hasDiagnosis') || undefined
+    const time = searchParams?.get('time') || undefined
+    const day = searchParams?.get('day') || undefined
+    const languages = searchParams?.get('languages') || undefined
+    const insurance = searchParams?.get('insurance') || undefined
+    const ageGroups = searchParams?.get('ageGroups') || undefined
+    const therapistGender = searchParams?.get('therapistGender') || undefined
 
     const custom: any = {}
     if (city) custom.city = city
@@ -628,7 +628,7 @@ export default function ResultsClient() {
       }
       custom.therapistGenderPref = genderMapping[therapistGender] || 'any'
     }
-    if (searchParams.get('strictGender') === 'true') custom.strictGender = true
+    if (searchParams?.get('strictGender') === 'true') custom.strictGender = true
 
     if (Object.keys(custom).length > 0) {
       console.log('🔍 [RESULTS CLIENT] Applying custom query:', custom)
@@ -647,7 +647,7 @@ export default function ResultsClient() {
       ;(search as any)(custom)
     }
     // Debug query param toggle (internal only)
-    const dbg = searchParams.get('debug')
+    const dbg = searchParams?.get('debug')
     if (dbg === '1' && process.env.NODE_ENV !== 'production') {
       toggleDebug()
     }
@@ -926,9 +926,11 @@ export default function ResultsClient() {
                       // When removed, set strictGender = false (does NOT affect genderPreference)
                       setQueryParam('strictGender', false)
                       // Update URL params
-                      const params = new URLSearchParams(searchParams.toString())
-                      params.delete('strictGender')
-                      router.push(`/results?${params.toString()}`, { scroll: false })
+                      if (searchParams) {
+                        const params = new URLSearchParams(searchParams.toString())
+                        params.delete('strictGender')
+                        router.push(`/results?${params.toString()}`, { scroll: false })
+                      }
                       // Trigger new search with updated query
                       search({ strictGender: false })
                     }}
@@ -946,9 +948,11 @@ export default function ResultsClient() {
                       setQueryParam('strictGender', false)
                       
                       // Update URL params to keep them in sync
-                      const params = new URLSearchParams(searchParams.toString())
-                      params.delete('strictGender')
-                      router.push(`/results?${params.toString()}`, { scroll: false })
+                      if (searchParams) {
+                        const params = new URLSearchParams(searchParams.toString())
+                        params.delete('strictGender')
+                        router.push(`/results?${params.toString()}`, { scroll: false })
+                      }
                       
                       // Trigger new search with updated strictGender
                       search({ strictGender: false })
@@ -963,9 +967,11 @@ export default function ResultsClient() {
                     type="practice"
                     onRemove={() => {
                       setQueryParam('barrierFree', false)
-                      const params = new URLSearchParams(searchParams.toString())
-                      params.delete('barrierFree')
-                      router.push(`/results?${params.toString()}`, { scroll: false })
+                      if (searchParams) {
+                        const params = new URLSearchParams(searchParams.toString())
+                        params.delete('barrierFree')
+                        router.push(`/results?${params.toString()}`, { scroll: false })
+                      }
                       search({ barrierFree: false })
                     }}
                   />

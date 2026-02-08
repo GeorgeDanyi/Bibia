@@ -103,7 +103,7 @@ export default function QuestionnaireClient() {
   const [otherActiveIdx, setOtherActiveIdx] = useState<number>(0)
 
   // Lightweight Test Mode toggle via URL param
-  const isTestMode = (searchParams.get('test') === '1')
+  const isTestMode = (searchParams?.get('test') === '1')
 
   // UI helpers for Step 6 approved design
   const SectionCard = ({ id, title, subtitle, children }: { id: string, title: string, subtitle?: string, children: React.ReactNode }) => (
@@ -320,7 +320,7 @@ export default function QuestionnaireClient() {
     if (typeof window === 'undefined') return
     
     // Check for URL parameters first
-    const editStep = searchParams.get('editStep')
+    const editStep = searchParams?.get('editStep')
     if (editStep) {
       const stepNumber = parseInt(editStep, 10)
       if (stepNumber >= 0 && stepNumber <= STEP.DONE) {
@@ -700,7 +700,7 @@ export default function QuestionnaireClient() {
         console.log("🔍 [QUESTIONNAIRE] Navigating to:", url);
         
         // If user came from results editing, go back to results
-        if (searchParams.get('editStep')) {
+        if (searchParams?.get('editStep')) {
           router.back()
         } else {
           router.push(url)
@@ -708,7 +708,7 @@ export default function QuestionnaireClient() {
       } catch (error) {
         console.error("🔍 [QUESTIONNAIRE] Error in handleNext final step:", error);
         // Still navigate even if saving fails
-        if (searchParams.get('editStep')) {
+        if (searchParams?.get('editStep')) {
           router.back()
         } else {
           router.push(ROUTES.results)

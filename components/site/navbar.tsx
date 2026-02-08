@@ -177,6 +177,7 @@ export function Navbar() {
   }, [pathname])
 
   const isActive = (href: string) => {
+    if (!pathname) return false
     if (href === "/" && pathname === "/") return true
     if (href !== "/" && pathname.startsWith(href)) return true
     return false

@@ -225,6 +225,33 @@ export async function linkAccount(data: {
 }
 
 /**
+ * Update user name
+ */
+export async function updateUserName(userId: string, name: string | null): Promise<User> {
+  const result = await query(
+    'UPDATE users SET name = $1 WHERE id = $2 RETURNING *',
+    [name, userId]
+  )
+  
+  if (result.rows.length === 0) {
+    throw new Error('User not found')
+  }
+  
+  const row = result.rows[0]
+  return {
+    id: row.id,
+    email: row.email,
+    emailVerifiedAt: row.email_verified_at,
+    name: row.name,
+    image: row.image,
+    role: row.role,
+    passwordHash: row.password_hash || null,
+    createdAt: row.created_at,
+    updatedAt: row.updated_at,
+  }
+}
+
+/**
  * Create magic token (hash the code before storing)
  */
 // Magic-link token helpers removed – using classic email+password auth now

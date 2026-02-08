@@ -29,7 +29,7 @@ export default function AuthPage() {
 
   const handleAuthSuccess = (mode: "login" | "register") => {
     // Get redirect URL from query param or default to "/"
-    const nextUrl = searchParams.get('next') || '/'
+    const nextUrl = searchParams?.get('next') || '/'
     
     // Redirect after successful auth
     router.push(nextUrl)
@@ -92,7 +92,7 @@ export default function AuthPage() {
           <div className="w-full flex justify-center md:justify-end">
             <AuthCard 
               onSuccess={handleAuthSuccess}
-              redirectUrl={searchParams.get('next') || undefined}
+              redirectUrl={searchParams?.get('next') || undefined}
             />
           </div>
         </div>

@@ -10,7 +10,7 @@ import { ArrowLeft, Eye, EyeOff, CheckCircle } from "lucide-react"
 function ResetPasswordContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
-  const token = searchParams.get("token") || ""
+  const token = searchParams?.get("token") || ""
 
   const [newPassword, setNewPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")

@@ -27,6 +27,9 @@ export function useUrlStateManager(options: UrlStateManagerOptions = {}) {
   
   // Parse current URL parameters into search criteria
   const getCurrentCriteria = useCallback((): SearchCriteria => {
+    if (!searchParams) {
+      return {} as SearchCriteria
+    }
     return searchService.parseUrlCriteria(searchParams)
   }, [searchParams])
   

@@ -43,7 +43,7 @@ function LoginContent() {
   const [hasHistory, setHasHistory] = useState(false)
   // Priority: next > callbackUrl > redirect
   const rawRedirect =
-    searchParams.get("next") || searchParams.get("callbackUrl") || searchParams.get("redirect") || null
+    searchParams?.get("next") || searchParams?.get("callbackUrl") || searchParams?.get("redirect") || null
   const redirectUrl = sanitizeRedirectUrl(rawRedirect)
 
   // Check if there's meaningful browser history
