@@ -70,20 +70,18 @@ export function LoginForm({ onSuccess, redirectUrl = '/dashboard' }: LoginFormPr
       const result = await signIn("credentials", {
         email,
         password,
-        redirect: true,
+        redirect: false,
         callbackUrl: redirectUrl,
       })
 
-      // If redirect is true, signIn will handle the redirect automatically
-      // This code should not be reached, but kept for safety
       if (result?.error) {
         setErrors({ general: "Neplatný e-mail nebo heslo." })
         setIsSubmitting(false)
         return
       }
 
+      // If successful, redirect manually
       onSuccess?.()
-      // If redirect was false, use manual redirect
       if (result?.url) {
         router.push(result.url)
       } else {
