@@ -77,6 +77,8 @@ export function useResultsSearch() {
   const deriveQueryFromURL = useCallback((): SearchQuery => {
     const query: SearchQuery = {}
     
+    if (!searchParams) return query
+    
     // Location
     const lat = searchParams.get('lat')
     const lon = searchParams.get('lon')
