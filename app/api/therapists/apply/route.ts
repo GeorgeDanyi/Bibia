@@ -2,6 +2,8 @@ import { NextResponse } from "next/server"
 import { query } from "@/lib/db"
 import { therapistApplicationSchema } from "./schema"
 
+export const runtime = "nodejs"
+
 // Simple in-memory rate limiting
 // Map<IP, { count: number, resetAt: number }>
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
@@ -159,32 +161,41 @@ export async function POST(request: Request) {
         await sendTherapistApplicationNotification({
           email: data.email,
           phone: data.phone,
-          fullName: data.fullName,
-          city: data.city,
+          fullName: data.fullName ?? null,
+          city: data.city ?? null,
           isCertified: data.isCertified,
           isInTraining: data.isInTraining,
-          howDidYouHear: data.howDidYouHear,
-          note: data.note,
+          howDidYouHear: data.howDidYouHear ?? null,
+          note: data.note ?? null,
         })
       } catch (emailError) {
-        // Log error but don't fail the request
+        // Log error but don't fail the request - email is optional
         console.error("Error sending notification email:", emailError)
       }
     }
 
     return NextResponse.json({ ok: true }, { status: 200 })
   } catch (error) {
-    console.error("Error in /api/therapists/apply:", error)
-    // Check if it's a database error
-    const isDbError = error instanceof Error && (
+    // Log error for diagnostics (without personal data)
+    const errorType = error instanceof Error ? error.constructor.name : "Unknown"
+    const errorMessage = error instanceof Error ? error.message : String(error)
+    console.error(`[therapists/apply] ${errorType}: ${errorMessage.substring(0, 100)}`)
+    
+    // Check if it's a database or SMTP error
+    const isDbOrSmtpError = error instanceof Error && (
       error.message?.includes("database") ||
       error.message?.includes("connection") ||
       error.message?.includes("query") ||
       error.message?.includes("ECONNREFUSED") ||
-      error.message?.includes("timeout")
+      error.message?.includes("timeout") ||
+      error.message?.includes("SMTP") ||
+      error.message?.includes("email") ||
+      error.message?.includes("ENOTFOUND") ||
+      error.message?.includes("ETIMEDOUT")
     )
     
-    if (isDbError) {
+    // Always return JSON with proper status
+    if (isDbOrSmtpError) {
       return NextResponse.json(
         { error: "Došlo k chybě na serveru. Zkuste to prosím později." },
         { status: 500 }
@@ -192,7 +203,7 @@ export async function POST(request: Request) {
     }
     
     return NextResponse.json(
-      { error: "Došlo k chybě při odesílání přihlášky. Zkuste to prosím znovu." },
+      { error: "Došlo k chybě na serveru. Zkuste to prosím později." },
       { status: 500 }
     )
   }
